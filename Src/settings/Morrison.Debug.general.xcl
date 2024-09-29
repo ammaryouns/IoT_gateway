@@ -1,0 +1,15 @@
+"C:\IARSystems\EWARMv8_0\arm\bin\armproc.dll" 
+
+"C:\IARSystems\EWARMv8_0\arm\bin\armlmiftdi.dll" 
+
+"F:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src\Debug\Exe\Morrison.out" 
+
+--plugin "C:\IARSystems\EWARMv8_0\arm\bin\armbat.dll" 
+
+--device_macro "C:\IARSystems\EWARMv8_0\arm\config\debugger\TexasInstruments\TM4C129.dmac" 
+
+--flash_loader "C:\IARSystems\EWARMv8_0\arm\config\flashloader\TexasInstruments\FlashTC4_NC.board" 
+
+
+
+

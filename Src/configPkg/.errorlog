@@ -1,0 +1,2 @@
+/cygdrive/c/ti/xdctools_3_32_00_06_core/bin/rm: cannot remove `.interfaces': Permission denied
+gmake.exe: *** [.interfaces] Error 1

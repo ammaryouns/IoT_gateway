@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!--  This file conforms to the DTD xdc/bld/build.dtd -->
+<package name="ti.net.wolfssl" version="1, 0, 0" producerId="undefined">
+    <units>
+    </units>
+    <sources>
+        <srcFile name="package/package_ti.net.wolfssl.c"/>
+        <srcFile name="wolfcrypt/src/aes.c"/>
+        <srcFile name="wolfcrypt/src/arc4.c"/>
+        <srcFile name="wolfcrypt/src/asm.c"/>
+        <srcFile name="wolfcrypt/src/asn.c"/>
+        <srcFile name="wolfcrypt/src/blake2b.c"/>
+        <srcFile name="wolfcrypt/src/camellia.c"/>
+        <srcFile name="wolfcrypt/src/chacha.c"/>
+        <srcFile name="wolfcrypt/src/coding.c"/>
+        <srcFile name="wolfcrypt/src/des3.c"/>
+        <srcFile name="wolfcrypt/src/dh.c"/>
+        <srcFile name="wolfcrypt/src/dsa.c"/>
+        <srcFile name="wolfcrypt/src/ecc.c"/>
+        <srcFile name="wolfcrypt/src/error.c"/>
+        <srcFile name="wolfcrypt/src/hc128.c"/>
+        <srcFile name="wolfcrypt/src/hmac.c"/>
+        <srcFile name="wolfcrypt/src/hash.c"/>
+        <srcFile name="wolfcrypt/src/integer.c"/>
+        <srcFile name="wolfcrypt/src/logging.c"/>
+        <srcFile name="wolfcrypt/src/md4.c"/>
+        <srcFile name="wolfcrypt/src/md5.c"/>
+        <srcFile name="wolfcrypt/src/memory.c"/>
+        <srcFile name="wolfcrypt/src/poly1305.c"/>
+        <srcFile name="wolfcrypt/src/pwdbased.c"/>
+        <srcFile name="wolfcrypt/src/rabbit.c"/>
+        <srcFile name="wolfcrypt/src/random.c"/>
+        <srcFile name="wolfcrypt/src/rsa.c"/>
+        <srcFile name="wolfcrypt/src/sha.c"/>
+        <srcFile name="wolfcrypt/src/sha256.c"/>
+        <srcFile name="wolfcrypt/src/sha512.c"/>
+        <srcFile name="wolfcrypt/src/tfm.c"/>
+        <srcFile name="wolfcrypt/src/wc_port.c"/>
+        <srcFile name="src/internal.c"/>
+        <srcFile name="src/io.c"/>
+        <srcFile name="src/keys.c"/>
+        <srcFile name="src/ssl.c"/>
+        <srcFile name="src/tls.c"/>
+    </sources>
+    <configscripts>
+    </configscripts>
+    <makefiles>
+        <srcFile name="package.mak" src="package.bld"/>
+        <srcFile name="package/package.xdc.dep" src="package.xdc"/>
+        <srcFile name="package/package.cfg.dep" src="package.xdc"/>
+        <srcFile name="lib/wolfssl.arm4f.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/wolfssl/package/package_ti.net.wolfssl.orm4f.dep" src="package/package_ti.net.wolfssl.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/aes.orm4f.dep" src="wolfcrypt/src/aes.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/arc4.orm4f.dep" src="wolfcrypt/src/arc4.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/asm.orm4f.dep" src="wolfcrypt/src/asm.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/asn.orm4f.dep" src="wolfcrypt/src/asn.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/blake2b.orm4f.dep" src="wolfcrypt/src/blake2b.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/camellia.orm4f.dep" src="wolfcrypt/src/camellia.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/chacha.orm4f.dep" src="wolfcrypt/src/chacha.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/coding.orm4f.dep" src="wolfcrypt/src/coding.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/des3.orm4f.dep" src="wolfcrypt/src/des3.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/dh.orm4f.dep" src="wolfcrypt/src/dh.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/dsa.orm4f.dep" src="wolfcrypt/src/dsa.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/ecc.orm4f.dep" src="wolfcrypt/src/ecc.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/error.orm4f.dep" src="wolfcrypt/src/error.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/hc128.orm4f.dep" src="wolfcrypt/src/hc128.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/hmac.orm4f.dep" src="wolfcrypt/src/hmac.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/hash.orm4f.dep" src="wolfcrypt/src/hash.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/integer.orm4f.dep" src="wolfcrypt/src/integer.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/logging.orm4f.dep" src="wolfcrypt/src/logging.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/md4.orm4f.dep" src="wolfcrypt/src/md4.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/md5.orm4f.dep" src="wolfcrypt/src/md5.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/memory.orm4f.dep" src="wolfcrypt/src/memory.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/poly1305.orm4f.dep" src="wolfcrypt/src/poly1305.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/pwdbased.orm4f.dep" src="wolfcrypt/src/pwdbased.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/rabbit.orm4f.dep" src="wolfcrypt/src/rabbit.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/random.orm4f.dep" src="wolfcrypt/src/random.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/rsa.orm4f.dep" src="wolfcrypt/src/rsa.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/sha.orm4f.dep" src="wolfcrypt/src/sha.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/sha256.orm4f.dep" src="wolfcrypt/src/sha256.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/sha512.orm4f.dep" src="wolfcrypt/src/sha512.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/tfm.orm4f.dep" src="wolfcrypt/src/tfm.c"/>
+        <srcFile name="package/lib/lib/wolfssl/wolfcrypt/src/wc_port.orm4f.dep" src="wolfcrypt/src/wc_port.c"/>
+        <srcFile name="package/lib/lib/wolfssl/src/internal.orm4f.dep" src="src/internal.c"/>
+        <srcFile name="package/lib/lib/wolfssl/src/io.orm4f.dep" src="src/io.c"/>
+        <srcFile name="package/lib/lib/wolfssl/src/keys.orm4f.dep" src="src/keys.c"/>
+        <srcFile name="package/lib/lib/wolfssl/src/ssl.orm4f.dep" src="src/ssl.c"/>
+        <srcFile name="package/lib/lib/wolfssl/src/tls.orm4f.dep" src="src/tls.c"/>
+        <srcFile name="lib/wolfssl_tm4c_hw.arm4f.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/package/package_ti.net.wolfssl.orm4f.dep" src="package/package_ti.net.wolfssl.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/aes.orm4f.dep" src="wolfcrypt/src/aes.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/arc4.orm4f.dep" src="wolfcrypt/src/arc4.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/asm.orm4f.dep" src="wolfcrypt/src/asm.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/asn.orm4f.dep" src="wolfcrypt/src/asn.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/blake2b.orm4f.dep" src="wolfcrypt/src/blake2b.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/camellia.orm4f.dep" src="wolfcrypt/src/camellia.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/chacha.orm4f.dep" src="wolfcrypt/src/chacha.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/coding.orm4f.dep" src="wolfcrypt/src/coding.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/des3.orm4f.dep" src="wolfcrypt/src/des3.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/dh.orm4f.dep" src="wolfcrypt/src/dh.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/dsa.orm4f.dep" src="wolfcrypt/src/dsa.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/ecc.orm4f.dep" src="wolfcrypt/src/ecc.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/error.orm4f.dep" src="wolfcrypt/src/error.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/hc128.orm4f.dep" src="wolfcrypt/src/hc128.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/hmac.orm4f.dep" src="wolfcrypt/src/hmac.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/hash.orm4f.dep" src="wolfcrypt/src/hash.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/integer.orm4f.dep" src="wolfcrypt/src/integer.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/logging.orm4f.dep" src="wolfcrypt/src/logging.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/md4.orm4f.dep" src="wolfcrypt/src/md4.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/md5.orm4f.dep" src="wolfcrypt/src/md5.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/memory.orm4f.dep" src="wolfcrypt/src/memory.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/poly1305.orm4f.dep" src="wolfcrypt/src/poly1305.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/pwdbased.orm4f.dep" src="wolfcrypt/src/pwdbased.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/rabbit.orm4f.dep" src="wolfcrypt/src/rabbit.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/random.orm4f.dep" src="wolfcrypt/src/random.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/rsa.orm4f.dep" src="wolfcrypt/src/rsa.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/sha.orm4f.dep" src="wolfcrypt/src/sha.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/sha256.orm4f.dep" src="wolfcrypt/src/sha256.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/sha512.orm4f.dep" src="wolfcrypt/src/sha512.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/tfm.orm4f.dep" src="wolfcrypt/src/tfm.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/wolfcrypt/src/wc_port.orm4f.dep" src="wolfcrypt/src/wc_port.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/src/internal.orm4f.dep" src="src/internal.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/src/io.orm4f.dep" src="src/io.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/src/keys.orm4f.dep" src="src/keys.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/src/ssl.orm4f.dep" src="src/ssl.c"/>
+        <srcFile name="package/lib/lib/wolfssl_tm4c_hw/src/tls.orm4f.dep" src="src/tls.c"/>
+        <srcFile name="package/rel/ti_net_wolfssl.tar.dep" src="package/rel/ti_net_wolfssl.xdc.inc"/>
+    </makefiles>
+    <targets>
+        <target name="iar.targets.arm.M4F"
+            version="iar.targets.arm.M4F{1,0,7.40,3"
+            rawVersion="7.40.3.8902"
+            platform="ti.platforms.tiva:TM4C1294NCPDT:1"
+            isa="v7M4"
+            suffix="rm4f"
+            rootDir="C:/IAR-Systems/Embedded-Workbench-7.2/arm"
+            os="undefined"
+            rts="iar.targets.arm.rts">
+            <model endian="little"
+                codeModel="thumb2"
+                dataModel="undefined"/>
+        </target>
+    </targets>
+    <libraries>
+    <library name="lib/wolfssl"
+        pname="lib/wolfssl.arm4f"
+        profile="release"
+        target="iar.targets.arm.M4F"/>
+    <library name="lib/wolfssl_tm4c_hw"
+        pname="lib/wolfssl_tm4c_hw.arm4f"
+        profile="release"
+        target="iar.targets.arm.M4F"/>
+    </libraries>
+    <configurations>
+    </configurations>
+    <executables>
+    </executables>
+    <tests>
+    </tests>
+    <releases relDir="package/rel/">
+    <release name="ti_net_wolfssl"
+        pname="ti_net_wolfssl.tar"
+        label="default"
+    >
+        <file name="package/package.bld.xml"/>
+        <file name="package/build.cfg"/>
+        <file name="package/package.xdc.inc"/>
+        <file name="package/package.cfg.xdc.inc"/>
+        <file name="lib/wolfssl.arm4f"/>
+        <file name="lib/wolfssl_tm4c_hw.arm4f"/>
+    </release>
+    </releases>
+    <repositories>
+    </repositories>
+</package>

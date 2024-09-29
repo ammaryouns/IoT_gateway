@@ -1,0 +1,4231 @@
+###############################################################################
+#
+# IAR ELF Dumper V7.80.1.11864 for ARM                    12/Feb/2017  03:07:00
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Input file   =  
+#        G:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src\Debug\Obj\tcpEchoCC3X00.o
+#    Output file  =  
+#        G:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src\Debug\Obj\tcpecho_elf_dump.txt
+#    Command line =  
+#        G:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src\Debug\Obj\tcpEchoCC3X00.o
+#        --all
+#        G:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src\Debug\Obj\tcpecho_elf_dump.txt
+#
+###############################################################################
+
+  32-bit little-endian relocatable ELF file for Advanced RISC Machines ARM
+
+    File version 1, header size 52, section header string section #1.
+    Flags 0x05000000 (ARM ELF revision 5 [AAELF 2.0])
+    Entry 0x00000000
+
+    110 section headers, each 40 bytes, at offset 0x5879
+
+  SECTIONS:
+
+       Name                Type     Offset  Size Aln Lnk Inf ESz Flags
+       ----                ----     ------  ---- --- --- --- --- -----
+    1: .shstrtab           strtab     0x34 0x1e8
+    2: .symtab             symtab    0x21c 0x600       3  75  16
+    3: .strtab             strtab    0x81c 0x4e9
+    4: .comment            pbits     0xd05 0xcb1
+    5: .iar.rtmodel        pbits    0x19b6  0x15
+    6: .debug_line         pbits    0x19cb 0xc7e
+    7: .debug_info         pbits    0x2649 0xa64
+    8: .text               pbits    0x30ad 0x1b8 0x4             0x6  AX
+    9: .bss                nobits   0x3265  0x50 0x4             0x3 WA
+   10: .bss                nobits   0x3265 0x400 0x4             0x3 WA
+   11: .iar_vfe_header     pbits    0x3265   0x4 0x4
+   12: __DLIB_PERTHREAD    pbits    0x3269   0x0                 0x2  A
+   13: __DLIB_PERTHREAD_init
+                           pbits    0x3269   0x0                 0x2  A
+   14: .rodata             pbits    0x3269  0x1c 0x4             0x2  A
+   15: .rodata             pbits    0x3285  0x18 0x4             0x2  A
+   16: .rodata             pbits    0x329d  0x18 0x4             0x2  A
+   17: .rodata             pbits    0x32b5  0x18 0x4             0x2  A
+   18: .rodata             pbits    0x32cd  0x18 0x4             0x2  A
+   19: .rodata             pbits    0x32e5  0x84 0x4             0x2  A
+   20: .debug_info         pbits    0x3369  0xd4
+   21: .debug_info         pbits    0x343d  0xd5
+   22: .iar.stackusage     pbits    0x3512  0x67
+   23: .debug_frame        pbits    0x3579  0x73
+   24: .rel.debug_frame    rel      0x35ec  0x10       2  23   8
+   25: .iar.debug_line     pbits    0x35fc  0x6b
+   26: .debug_line         pbits    0x3667  0x93
+   27: .debug_info         pbits    0x36fa 0x10f
+   28: .rel.iar.stackusage rel      0x3809 0x110       2  22   8
+   29: .debug_frame        pbits    0x3919  0x6c
+   30: .rel.debug_frame    rel      0x3985  0x10       2  29   8
+   31: .iar.debug_line     pbits    0x3995  0x58
+   32: .debug_line         pbits    0x39ed  0xa8
+   33: .debug_info         pbits    0x3a95  0xfa
+   34: .debug_frame        pbits    0x3b8f  0x89
+   35: .rel.debug_frame    rel      0x3c18  0x10       2  34   8
+   36: .iar.debug_line     pbits    0x3c28 0x1c3
+   37: .debug_line         pbits    0x3deb 0x159
+   38: .debug_info         pbits    0x3f44 0x1e6
+   39: .debug_frame        pbits    0x412a  0x77
+   40: .rel.debug_frame    rel      0x41a1  0x10       2  39   8
+   41: .iar.debug_line     pbits    0x41b1  0x85
+   42: .debug_line         pbits    0x4236  0xab
+   43: .debug_info         pbits    0x42e1 0x11e
+   44: .debug_frame        pbits    0x43ff  0x77
+   45: .rel.debug_frame    rel      0x4476  0x10       2  44   8
+   46: .iar.debug_line     pbits    0x4486  0xd3
+   47: .debug_line         pbits    0x4559  0xb4
+   48: .debug_info         pbits    0x460d 0x104
+   49: .ARM.attributes     arm_attr 0x4711  0x54
+   50: .debug_loc          pbits    0x4765  0x33
+   51: .debug_loc          pbits    0x4798  0x14
+   52: .debug_loc          pbits    0x47ac 0x14e
+   53: .debug_info         pbits    0x48fa  0xf3
+   54: .debug_loc          pbits    0x49ed  0x59
+   55: .debug_loc          pbits    0x4a46  0x4d
+   56: .debug_abbrev       pbits    0x4a93 0x198
+   57: .rel.debug_info     rel      0x4c2b  0x58       2  27   8
+   58: .debug_pubnames     pbits    0x4c83  0x36
+   59: .rel.debug_pubnames rel      0x4cb9   0x8       2  58   8
+   60: .debug_aranges      pbits    0x4cc1  0x1c
+   61: .rel.debug_aranges  rel      0x4cdd  0x10       2  60   8
+   62: .debug_macinfo      pbits    0x4ced 0x322
+   63: .rel.debug_info     rel      0x500f  0x28       2  21   8
+   64: .rel.debug_info     rel      0x5037  0x28       2  20   8
+   65: .rel.debug_info     rel      0x505f  0x50       2  33   8
+   66: .debug_pubnames     pbits    0x50af  0x24
+   67: .rel.debug_pubnames rel      0x50d3   0x8       2  66   8
+   68: .debug_aranges      pbits    0x50db  0x1c
+   69: .rel.debug_aranges  rel      0x50f7  0x10       2  68   8
+   70: .rel.debug_info     rel      0x5107 0x130       2  38   8
+   71: .debug_pubnames     pbits    0x5237  0x1e
+   72: .rel.debug_pubnames rel      0x5255   0x8       2  71   8
+   73: .debug_aranges      pbits    0x525d  0x1c
+   74: .rel.debug_aranges  rel      0x5279  0x10       2  73   8
+   75: .rel.debug_info     rel      0x5289  0x78       2  43   8
+   76: .debug_pubnames     pbits    0x5301  0x22
+   77: .rel.debug_pubnames rel      0x5323   0x8       2  76   8
+   78: .debug_aranges      pbits    0x532b  0x1c
+   79: .rel.debug_aranges  rel      0x5347  0x10       2  78   8
+   80: .rel.debug_info     rel      0x5357  0x68       2  48   8
+   81: .debug_pubnames     pbits    0x53bf  0x22
+   82: .rel.debug_pubnames rel      0x53e1   0x8       2  81   8
+   83: .debug_aranges      pbits    0x53e9  0x1c
+   84: .rel.debug_aranges  rel      0x5405  0x10       2  83   8
+   85: .rel.debug_info     rel      0x5415  0x38       2  53   8
+   86: .rel.debug_info     rel      0x544d  0x18       2   7   8
+   87: .iar.debug_frame    pbits    0x5465  0x12
+   88: .rel.iar.debug_frame
+                           rel      0x5477  0x18       2  87   8
+   89: .iar.debug_frame    pbits    0x548f  0x12
+   90: .rel.iar.debug_frame
+                           rel      0x54a1  0x18       2  89   8
+   91: .iar.debug_frame    pbits    0x54b9  0x12
+   92: .rel.iar.debug_frame
+                           rel      0x54cb  0x18       2  91   8
+   93: .iar.debug_frame    pbits    0x54e3  0x12
+   94: .rel.iar.debug_frame
+                           rel      0x54f5  0x18       2  93   8
+   95: .iar.debug_frame    pbits    0x550d  0x12
+   96: .rel.iar.debug_frame
+                           rel      0x551f  0x18       2  95   8
+   97: .rel.debug_line     rel      0x5537   0x8       2  26   8
+   98: .rel.iar.debug_line rel      0x553f  0x18       2  25   8
+   99: .rel.debug_line     rel      0x5557   0x8       2  32   8
+  100: .rel.iar.debug_line rel      0x555f  0x10       2  31   8
+  101: .rel.debug_line     rel      0x556f   0x8       2  37   8
+  102: .rel.iar.debug_line rel      0x5577  0x68       2  36   8
+  103: .rel.debug_line     rel      0x55df   0x8       2  42   8
+  104: .rel.iar.debug_line rel      0x55e7  0x28       2  41   8
+  105: .rel.debug_line     rel      0x560f   0x8       2  47   8
+  106: .rel.iar.debug_line rel      0x5617  0x48       2  46   8
+  107: .rel.text           rel      0x565f 0x188       2   8   8
+  108: .iar.fraginfo       pbits    0x57e7  0x12
+  109: .rel.iar.fraginfo   rel      0x57f9  0x80       2 108   8
+
+
+-------------------------------------------------------------------------------
+Section #1 .shstrtab:
+
+    0x0:
+    0x1: ".shstrtab"
+    0xb: ".symtab"
+   0x13: ".strtab"
+   0x1b: ".comment"
+   0x24: ".iar.rtmodel"
+   0x31: ".debug_line"
+   0x3d: ".debug_info"
+   0x49: ".text"
+   0x4f: ".bss"
+   0x54: ".iar_vfe_header"
+   0x64: "__DLIB_PERTHREAD"
+   0x75: "__DLIB_PERTHREAD_init"
+   0x8b: ".rodata"
+   0x93: ".iar.stackusage"
+   0xa3: ".debug_frame"
+   0xb0: ".rel.debug_frame"
+   0xc1: ".iar.debug_line"
+   0xd1: ".rel.iar.stackusage"
+   0xe5: ".ARM.attributes"
+   0xf5: ".debug_loc"
+  0x100: ".debug_abbrev"
+  0x10e: ".rel.debug_info"
+  0x11e: ".debug_pubnames"
+  0x12e: ".rel.debug_pubnames"
+  0x142: ".debug_aranges"
+  0x151: ".rel.debug_aranges"
+  0x164: ".debug_macinfo"
+  0x173: ".iar.debug_frame"
+  0x184: ".rel.iar.debug_frame"
+  0x199: ".rel.debug_line"
+  0x1a9: ".rel.iar.debug_line"
+  0x1bd: ".rel.text"
+  0x1c7: ".iar.fraginfo"
+  0x1d5: ".rel.iar.fraginfo"
+  0x1e7: ""
+
+
+-------------------------------------------------------------------------------
+Section #2 .symtab:
+
+  95 symbols, 74 local
+
+      Name                                Value Sec Type Bd Size  Group Other
+      ----                                ----- --- ---- -- ----  ----- -----
+   1: c:\ti\tirtos_tivac_2_16_01_14\tirtos_tivac_2_16_01_14_examples\IAR\EK_TM4C1294XL\tcpEchoCC3X00\tcpEchoCC3X00.c
+                                            0x0 Abs File Lc
+   2: __iar_systems$$module                 0x1 Abs  --  Lc
+   3: echoFxn                              0x1f   8 Code Lc 0x106
+   4: gpioButtonFxn                        0x17   8 Code Lc   0x8
+   5: task0Stack                            0x0  10 Data Lc 0x400
+   6: task0Struct                           0x0   9 Data Lc  0x50
+   7: tcpEchoTask                         0x125   8 Code Lc  0x1c
+   8: ti_sysbios_knl_Task_Params_init       0x1   8 Code Lc  0x16
+   9: .text8                                0x0   8 Sect Lc
+  10: .debug_frame23                        0x0  23 Sect Lc
+  11: $t                                    0x0   8  --  Lc
+  12: $d                                    0x0   9  --  Lc
+  13: $d                                    0x0  10  --  Lc
+  14: .text_11                             0x16   8  --  Lc
+  15: .debug_frame29                        0x0  29 Sect Lc
+  16: .text_12                             0x1e   8  --  Lc
+  17: .debug_frame34                        0x0  34 Sect Lc
+  18: .text_13                            0x124   8  --  Lc
+  19: .debug_frame39                        0x0  39 Sect Lc
+  20: .text_14                            0x140   8  --  Lc
+  21: .debug_frame44                        0x0  44 Sect Lc
+  22: .text_15                            0x18c   8  --  Lc
+  23: $d                                  0x18c   8  --  Lc
+  24: .text_16                            0x190   8  --  Lc
+  25: .text_17                            0x194   8  --  Lc
+  26: .text_18                            0x198   8  --  Lc
+  27: .text_19                            0x19c   8  --  Lc
+  28: .text_20                            0x1a0   8  --  Lc
+  29: .text_21                            0x1a4   8  --  Lc
+  30: .text_22                            0x1a8   8  --  Lc
+  31: .text_23                            0x1ac   8  --  Lc
+  32: .text_24                            0x1b0   8  --  Lc
+  33: .text_25                            0x1b4   8  --  Lc
+  34: .iar_vfe_header11                     0x0  11 Sect Lc
+  35: $d                                    0x0  11  --  Lc
+  36: __DLIB_PERTHREAD12                    0x0  12 Sect Lc
+  37: __DLIB_PERTHREAD_init13               0x0  13 Sect Lc
+  38: .rodata14                             0x0  14 Sect Lc
+  39: $d                                    0x0  14  --  Lc
+  40: .rodata15                             0x0  15 Sect Lc
+  41: $d                                    0x0  15  --  Lc
+  42: .rodata16                             0x0  16 Sect Lc
+  43: $d                                    0x0  16  --  Lc
+  44: .rodata17                             0x0  17 Sect Lc
+  45: $d                                    0x0  17  --  Lc
+  46: .rodata18                             0x0  18 Sect Lc
+  47: $d                                    0x0  18  --  Lc
+  48: .rodata19                             0x0  19 Sect Lc
+  49: $d                                    0x0  19  --  Lc
+  50: .debug_abbrev56                       0x0  56 Sect Lc
+  51: .debug_loc50                          0x0  50 Sect Lc
+  52: .debug_info7                          0x0   7 Sect Lc
+  53: .debug_line26                         0x0  26 Sect Lc
+  54: .iar.debug_line25                     0x0  25 Sect Lc
+  55: .debug_info27                         0x0  27 Sect Lc
+  56: .debug_line6                          0x0   6 Sect Lc
+  57: .debug_macinfo62                      0x0  62 Sect Lc
+  58: .debug_loc51                          0x0  51 Sect Lc
+  59: .debug_line32                         0x0  32 Sect Lc
+  60: .iar.debug_line31                     0x0  31 Sect Lc
+  61: .debug_info33                         0x0  33 Sect Lc
+  62: .debug_loc52                          0x0  52 Sect Lc
+  63: .debug_info53                         0x0  53 Sect Lc
+  64: .debug_line37                         0x0  37 Sect Lc
+  65: .iar.debug_line36                     0x0  36 Sect Lc
+  66: .debug_info38                         0x0  38 Sect Lc
+  67: .debug_loc54                          0x0  54 Sect Lc
+  68: .debug_line42                         0x0  42 Sect Lc
+  69: .iar.debug_line41                     0x0  41 Sect Lc
+  70: .debug_info43                         0x0  43 Sect Lc
+  71: .debug_loc55                          0x0  55 Sect Lc
+  72: .debug_line47                         0x0  47 Sect Lc
+  73: .iar.debug_line46                     0x0  46 Sect Lc
+  74: .debug_info48                         0x0  48 Sect Lc
+  75: GPIO_enableInt                        0x0 Ext Code Gb
+  76: GPIO_setCallback                      0x0 Ext Code Gb
+  77: GPIO_write                            0x0 Ext Code Gb
+  78: __aeabi_memset                        0x0 Ext Code Gb
+  79: sl_Accept                             0x0 Ext Code Gb
+  80: sl_Bind                               0x0 Ext Code Gb
+  81: sl_Close                              0x0 Ext Code Gb
+  82: sl_Htonl                              0x0 Ext Code Gb
+  83: sl_Htons                              0x0 Ext Code Gb
+  84: sl_Listen                             0x0 Ext Code Gb
+  85: sl_Recv                               0x0 Ext Code Gb
+  86: sl_Send                               0x0 Ext Code Gb
+  87: sl_Socket                             0x0 Ext Code Gb
+  88: smartConfigFlag                       0x0 Ext Data Gb
+  89: socketsShutDown                       0x0 Ext Code Gb
+  90: socketsStartUp                        0x0 Ext Code Gb
+  91: ti_sysbios_knl_Task_Params__init__S   0x0 Ext Code Gb
+  92: ti_sysbios_knl_Task_construct         0x0 Ext Code Gb
+  93: xdc_runtime_System_flush__E           0x0 Ext Code Gb
+  94: xdc_runtime_System_printf__E          0x0 Ext Code Gb
+  95: TcpEchoInit                         0x141   8 Code Gb  0x4a
+
+
+-------------------------------------------------------------------------------
+Section #3 .strtab:
+
+    0x0:
+    0x1: "c:\ti\tirtos_tivac_2_16_01_14\tirtos_tivac_2_16_01_14_examples\IAR\EK_TM4C1294XL\tcpEchoCC3X00\tcpEchoCC3X00.c"
+   0x70: "__iar_systems$$module"
+   0x86: "echoFxn"
+   0x8e: "gpioButtonFxn"
+   0x9c: "task0Stack"
+   0xa7: "task0Struct"
+   0xb3: "tcpEchoTask"
+   0xbf: "ti_sysbios_knl_Task_Params_init"
+   0xdf: ".text8"
+   0xe6: ".debug_frame23"
+   0xf5: "$t"
+   0xf8: "$d"
+   0xfb: ".text_11"
+  0x104: ".debug_frame29"
+  0x113: ".text_12"
+  0x11c: ".debug_frame34"
+  0x12b: ".text_13"
+  0x134: ".debug_frame39"
+  0x143: ".text_14"
+  0x14c: ".debug_frame44"
+  0x15b: ".text_15"
+  0x164: ".text_16"
+  0x16d: ".text_17"
+  0x176: ".text_18"
+  0x17f: ".text_19"
+  0x188: ".text_20"
+  0x191: ".text_21"
+  0x19a: ".text_22"
+  0x1a3: ".text_23"
+  0x1ac: ".text_24"
+  0x1b5: ".text_25"
+  0x1be: ".iar_vfe_header11"
+  0x1d0: "__DLIB_PERTHREAD12"
+  0x1e3: "__DLIB_PERTHREAD_init13"
+  0x1fb: ".rodata14"
+  0x205: ".rodata15"
+  0x20f: ".rodata16"
+  0x219: ".rodata17"
+  0x223: ".rodata18"
+  0x22d: ".rodata19"
+  0x237: ".debug_abbrev56"
+  0x247: ".debug_loc50"
+  0x254: ".debug_info7"
+  0x261: ".debug_line26"
+  0x26f: ".iar.debug_line25"
+  0x281: ".debug_info27"
+  0x28f: ".debug_line6"
+  0x29c: ".debug_macinfo62"
+  0x2ad: ".debug_loc51"
+  0x2ba: ".debug_line32"
+  0x2c8: ".iar.debug_line31"
+  0x2da: ".debug_info33"
+  0x2e8: ".debug_loc52"
+  0x2f5: ".debug_info53"
+  0x303: ".debug_line37"
+  0x311: ".iar.debug_line36"
+  0x323: ".debug_info38"
+  0x331: ".debug_loc54"
+  0x33e: ".debug_line42"
+  0x34c: ".iar.debug_line41"
+  0x35e: ".debug_info43"
+  0x36c: ".debug_loc55"
+  0x379: ".debug_line47"
+  0x387: ".iar.debug_line46"
+  0x399: ".debug_info48"
+  0x3a7: "GPIO_enableInt"
+  0x3b6: "GPIO_setCallback"
+  0x3c7: "GPIO_write"
+  0x3d2: "__aeabi_memset"
+  0x3e1: "sl_Accept"
+  0x3eb: "sl_Bind"
+  0x3f3: "sl_Close"
+  0x3fc: "sl_Htonl"
+  0x405: "sl_Htons"
+  0x40e: "sl_Listen"
+  0x418: "sl_Recv"
+  0x420: "sl_Send"
+  0x428: "sl_Socket"
+  0x432: "smartConfigFlag"
+  0x442: "socketsShutDown"
+  0x452: "socketsStartUp"
+  0x461: "ti_sysbios_knl_Task_Params__init__S"
+  0x485: "ti_sysbios_knl_Task_construct"
+  0x4a3: "xdc_runtime_System_flush__E"
+  0x4bf: "xdc_runtime_System_printf__E"
+  0x4dc: "TcpEchoInit"
+  0x4e8: ""
+
+
+-------------------------------------------------------------------------------
+Section #4 .comment:
+
+  IAR ANSI C/C++ Compiler V7.80.1.11864/W32 for ARM
+  c:\ti\tirtos_tivac_2_16_01_14\tirtos_tivac_2_16_01_14_examples\IAR\EK_TM4C1294XL\tcpEchoCC3X00\tcpEchoCC3X00.c -o G:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src\Debug\Obj --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -f G:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src/configPkg/compiler.opt.defs (-IC:/ti/tirtos_tivac_2_16_01_14/packages -IC:/ti/tirtos_tivac_2_16_01_14/products/tidrivers_tivac_2_16_01_13/packages -IC:/ti/tirtos_tivac_2_16_01_14/products/bios_6_45_02_31/packages -IC:/ti/tirtos_tivac_2_16_01_14/products/ndk_2_25_00_09/packages -IC:/ti/tirtos_tivac_2_16_01_14/products/ns_1_11_00_10/packages -IC:/ti/tirtos_tivac_2_16_01_14/products/uia_2_00_05_50/packages -Ic:/ti/xdctools_3_32_00_06_core/packages -IG:/Embedded/Embedded_Workspace/IAREWARM/Morrison/Src/configPkg/.. -Dxdc_target_types__=iar/targets/arm/std.h -Dxdc_target_name__=M4F "-Dxdc_cfg__xheader__=\"G:/Embedded/Embedded_Workspace/IAREWARM/Morrison/Src/configPkg/package/cfg/Morrison_prm4f.h\"") --diag_suppress=Pa050 -Ic:/ti/tirtos_tivac_2_16_01_14/products/TivaWare_C_Series-2.1.1.71b -Ic:/ti/tirtos_tivac_2_16_01_14/products/bios_6_45_02_31/packages/ti/sysbios/posix -DPART_TM4C1294NCPDT -Dewarm -DTIVAWARE --debug --silent -Ic:/ti/tirtos_tivac_2_16_01_14/products/ndk_2_25_00_09/packages/ti/ndk/inc/bsd -DNET_NDK -DWOLFSSL_TIRTOS -e --fpu=VFPv4_sp --dlib_config "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\INC\c\DLib_Config_Normal.h" -I G:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src\BoardManagment\ -I G:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src\Morrison\ -I G:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src\Morrison\BLE\ -I G:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src\Morrison\Communication\ -I G:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src\Morrison\Configuration\ -I G:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src\Morrison\Drivers\ -I G:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src\Morrison\EventManager\ -I G:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src\Morrison\NFC\ -I G:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src\Morrison\Peripherals\ -I G:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src\Morrison\Status\ -I G:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src\Morrison\System\ -I G:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src\Morrison\Driverlib\ -I G:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src\Morrison\Wireless\ -I G:\Embedded\Embedded_Workspace\IAREWARM\Morrison\Src\wolfssl-3.9.10\ -I C:\ti\tirtos_tivac_2_16_01_14\products\tidrivers_tivac_2_16_01_13\packages\ti\drivers\ -I C:\ti\tirtos_tivac_2_16_01_14\products\tidrivers_tivac_2_16_01_13\packages\ti\drivers\wifi\ -I C:\ti\tirtos_tivac_2_16_01_14\products\tidrivers_tivac_2_16_01_13\packages\ti\mw\wifi\cc3x00\simplelink\include\ -I C:\ti\tirtos_tivac_2_16_01_14\products\tidrivers_tivac_2_16_01_13\packages\ti\mw\wifi\cc3x00\simplelink\source\ -I C:\ti\tirtos_tivac_2_16_01_14\products\tidrivers_tivac_2_16_01_13\packages\ti\mw\wifi\cc3x00\simplelink\ -I C:\ti\tirtos_tivac_2_16_01_14\products\tidrivers_tivac_2_16_01_13\packages\ti\mw\wifi\cc3x00\oslib\ -On
+
+
+
+-------------------------------------------------------------------------------
+Section #5 .iar.rtmodel:
+
+  __SystemLibrary = DLib
+
+
+-------------------------------------------------------------------------------
+Section #6 .debug_line:
+
+  0x0: 3194 bytes, utf8, version 2, 3188 prologue bytes
+    code factor 1, line base 0, line range 5, opcode base 10
+    opcode lengths [0 1 1 1 1 0 0 0 0]
+
+    Directories:
+       1:  'C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\INC\c'
+       2:  'C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\inc\c'
+       3:  'C:\ti\tirtos_tivac_2_16_01_14\products\bios_6_45_02_31\packages\iar\targets\arm'
+       4:  'C:\ti\tirtos_tivac_2_16_01_14\products\bios_6_45_02_31\packages\ti\sysbios'
+       5:  'C:\ti\tirtos_tivac_2_16_01_14\products\bios_6_45_02_31\packages\ti\sysbios\interfaces'
+       6:  'C:\ti\tirtos_tivac_2_16_01_14\products\bios_6_45_02_31\packages\ti\sysbios\interfaces\package'
+       7:  'C:\ti\tirtos_tivac_2_16_01_14\products\bios_6_45_02_31\packages\ti\sysbios\knl'
+       8:  'C:\ti\tirtos_tivac_2_16_01_14\products\bios_6_45_02_31\packages\ti\sysbios\knl\package'
+       9:  'C:\ti\tirtos_tivac_2_16_01_14\products\bios_6_45_02_31\packages\ti\sysbios\package'
+      10:  'C:\ti\tirtos_tivac_2_16_01_14\products\tidrivers_tivac_2_16_01_13\packages\ti\drivers'
+      11:  'C:\ti\tirtos_tivac_2_16_01_14\products\tidrivers_tivac_2_16_01_13\packages\ti\mw\wifi\cc3x00\oslib'
+      12:  'C:\ti\tirtos_tivac_2_16_01_14\products\tidrivers_tivac_2_16_01_13\packages\ti\mw\wifi\cc3x00\simplelink'
+      13:  'C:\ti\tirtos_tivac_2_16_01_14\products\tidrivers_tivac_2_16_01_13\packages\ti\mw\wifi\cc3x00\simplelink\include'
+      14:  'C:\ti\tirtos_tivac_2_16_01_14\products\tidrivers_tivac_2_16_01_13\packages\ti\mw\wifi\cc3x00\simplelink\source'
+      15:  'c:\ti\tirtos_tivac_2_16_01_14\tirtos_tivac_2_16_01_14_examples\IAR\EK_TM4C1294XL\tcpEchoCC3X00'
+      16:  'c:\ti\xdctools_3_32_00_06_core\packages\xdc'
+      17:  'c:\ti\xdctools_3_32_00_06_core\packages\xdc\runtime'
+      18:  'c:\ti\xdctools_3_32_00_06_core\packages\xdc\runtime\package'
+
+    Files:
+       1:  Oct 14 13:17:42 2016    13 li   1  'DLib_Config_Normal.h'
+       2:  Oct 14 13:17:42 2016  1010 li   2  'DLib_Defaults.h'
+       3:  Oct 14 13:17:42 2016   105 li   2  'DLib_Product.h'
+       4:  Oct 14 13:17:42 2016    84 li   2  'DLib_Product_string.h'
+       5:  Oct 14 13:17:42 2016   359 li   2  'DLib_Threads.h'
+       6:  Oct 14 13:17:44 2016    29 li   2  'stdbool.h'
+       7:  Oct 14 13:17:44 2016    54 li   2  'stddef.h'
+       8:  Oct 14 13:17:44 2016   262 li   2  'stdint.h'
+       9:  Oct 14 13:17:44 2016   483 li   2  'string.h'
+      10:  Oct 14 13:17:44 2016    58 li   2  'xencoding_limits.h'
+      11:  Oct 14 13:17:44 2016   112 li   2  'ycheck.h'
+      12:  Oct 14 13:17:44 2016    36 li   2  'ysizet.h'
+      13:  Oct 14 13:17:44 2016   715 li   2  'yvals.h'
+      14:  Apr 23 04:04:22 2016   119 li   3  'M4F.h'
+      15:  Jan 29 05:37:00 2016    83 li   3  'std.h'
+      16:  Apr 23 04:05:34 2016   536 li   4  'BIOS.h'
+      17:  Apr 22 01:45:32 2016    38 li   4  'BIOS__epilogue.h'
+      18:  Apr 22 01:45:32 2016    32 li   4  'BIOS__prologue.h'
+      19:  Apr 23 04:08:54 2016   232 li   5  'ITaskSupport.h'
+      20:  Apr 23 04:08:54 2016   542 li   5  'ITimer.h'
+      21:  Apr 23 04:08:54 2016    97 li   6  'package.defs.h'
+      22:  Apr 23 04:09:02 2016   770 li   7  'Clock.h'
+      23:  Apr 23 04:09:02 2016   500 li   7  'Queue.h'
+      24:  Apr 23 04:09:02 2016   729 li   7  'Swi.h'
+      25:  Apr 23 04:09:02 2016  1093 li   7  'Task.h'
+      26:  Apr 22 01:45:58 2016    45 li   7  'Task__epilogue.h'
+      27:  Apr 22 01:45:58 2016    32 li   7  'Task__prologue.h'
+      28:  Apr 23 04:09:02 2016   546 li   8  'Clock_TimerProxy.h'
+      29:  Apr 23 04:09:02 2016   350 li   8  'Task_SupportProxy.h'
+      30:  Apr 23 04:09:02 2016   138 li   8  'package.defs.h'
+      31:  Apr 23 04:05:34 2016   406 li   9  'BIOS_RtsGateProxy.h'
+      32:  Apr 23 04:05:34 2016    29 li   9  'package.defs.h'
+      33:  Apr 22 03:42:58 2016   282 li  10  'GPIO.h'
+      34:  Apr 22 03:42:56 2016   566 li  11  'osi.h'
+      35:  Apr 22 03:42:56 2016   144 li  12  'cc3x00_control.h'
+      36:  Apr 22 03:42:56 2016   147 li  12  'cc3x00_spi.h'
+      37:  Apr 22 03:42:56 2016   657 li  13  'device.h'
+      38:  Apr 22 03:42:56 2016   381 li  13  'fs.h'
+      39:  Apr 22 03:42:56 2016   890 li  13  'netapp.h'
+      40:  Apr 22 03:42:56 2016   282 li  13  'netcfg.h'
+      41:  Apr 22 03:42:56 2016   955 li  13  'simplelink.h'
+      42:  Apr 22 03:42:56 2016  1639 li  13  'socket.h'
+      43:  Apr 22 03:42:56 2016   201 li  13  'trace.h'
+      44:  Apr 22 03:42:56 2016  1307 li  13  'wlan.h'
+      45:  Apr 22 03:42:56 2016   930 li  13  'wlan_rx_filters.h'
+      46:  Apr 22 03:42:56 2016   322 li  14  'objInclusion.h'
+      47:  Apr 22 03:42:56 2016    63 li  14  'spawn.h'
+      48:  Jan 15 20:46:15 2017  1014 li  12  'user.h'
+      49:  Apr 23 04:28:52 2016    99 li  15  'Board.h'
+      50:  Apr 23 04:28:52 2016   308 li  15  'EK_TM4C1294XL.h'
+      51:  Apr 23 04:28:52 2016    63 li  15  'sockets.h'
+      52:  Jan 15 21:02:21 2017   158 li  15  'tcpEchoCC3X00.c'
+      53:  Dec 11 00:45:29 2015   267 li  17  'Assert.h'
+      54:  Dec 11 00:45:29 2015    53 li  17  'Assert__epilogue.h'
+      55:  Dec 11 00:45:29 2015    44 li  17  'Assert__prologue.h'
+      56:  Dec 11 00:45:29 2015   392 li  17  'Diags.h'
+      57:  Dec 11 00:45:29 2015    53 li  17  'Diags__epilogue.h'
+      58:  Dec 11 00:45:29 2015    72 li  17  'Diags__prologue.h'
+      59:  Dec 11 00:45:29 2015   428 li  17  'Error.h'
+      60:  Dec 11 00:45:29 2015    40 li  17  'Error__epilogue.h'
+      61:  Dec 11 00:45:29 2015    47 li  17  'Error__prologue.h'
+      62:  Dec 11 00:45:29 2015   230 li  17  'IGateProvider.h'
+      63:  Dec 11 00:45:29 2015   241 li  17  'IHeap.h'
+      64:  Dec 11 00:45:29 2015   158 li  17  'IInstance.h'
+      65:  Dec 11 00:45:29 2015   124 li  17  'IModule.h'
+      66:  Dec 11 00:45:29 2015   214 li  17  'ISystemSupport.h'
+      67:  Dec 11 00:45:29 2015   393 li  17  'Log.h'
+      68:  Dec 11 00:45:29 2015   438 li  17  'Log__epilogue.h'
+      69:  Dec 11 00:45:29 2015    77 li  17  'Log__prologue.h'
+      70:  Dec 11 00:45:29 2015   251 li  17  'Main.h'
+      71:  Dec 11 00:45:29 2015   325 li  17  'Memory.h'
+      72:  Dec 11 00:45:29 2015   519 li  17  'System.h'
+      73:  Dec 11 00:45:29 2015   463 li  17  'Text.h'
+      74:  Dec 11 00:45:30 2015   426 li  17  'Types.h'
+      75:  Dec 11 00:45:30 2015    37 li  17  'Types__epilogue.h'
+      76:  Dec 11 00:45:30 2015    20 li  17  'Types__prologue.h'
+      77:  Dec 11 00:45:30 2015   406 li  18  'Main_Module_GateProxy.h'
+      78:  Dec 11 00:45:30 2015   405 li  18  'Memory_HeapProxy.h'
+      79:  Dec 11 00:45:30 2015   406 li  18  'System_Module_GateProxy.h'
+      80:  Dec 11 00:45:30 2015   319 li  18  'System_SupportProxy.h'
+      81:  Dec 11 00:45:30 2015   382 li  18  'package.defs.h'
+      82:  Dec 11 00:45:30 2015    90 li  17  'xdc.h'
+      83:  Dec 11 00:45:27 2015   356 li  16  'std.h'
+
+
+
+
+-------------------------------------------------------------------------------
+Section #7 .debug_info:
+
+    0x0: 2656 bytes, version 3, abbrevs #56, addr size 4
+    0xb: + compile_unit (1)
+         |   name c:\ti\tirtos_tivac_2_16_01_14\tirtos_tivac_2_16_01_14_examples\IAR\EK_TM4C1294XL\tcpEchoCC3X00\tcpEchoCC3X00.c
+         |   producer IAR ANSI C/C++ Compiler V7.80.1.11864/W32 for ARM
+         |   language C99
+         |   stmt_list #6
+         |   macro_info #62
+         |   use_UTF8 0x1
+   0xb7: |   base_type (2)
+         |     name char
+         |     byte_size 0x1
+         |     encoding unsigned_char
+   0xbf: |   pointer_type (4)
+         |     type 0x98d
+   0xc4: |   volatile_type (5)
+         |     type 0xbf
+   0xc7: |   base_type (2)
+         |     name int
+         |     byte_size 0x4
+         |     encoding signed
+   0xce: |   volatile_type (6)
+         |     type 0x729
+   0xd3: |   base_type (2)
+         |     name unsigned int
+         |     byte_size 0x4
+         |     encoding unsigned
+   0xe3: |   base_type (2)
+         |     name void
+         |     byte_size 0x0
+         |     encoding signed
+   0xeb: |   pointer_type (7)
+         |     type 0xe3
+   0xee: |   pointer_type (4)
+         |     type 0x9d1
+   0xf3: |   pointer_type (4)
+         |     type 0x6af
+   0xf8: |   pointer_type (4)
+         |     type 0x2ed
+   0xfd: |   base_type (2)
+         |     name unsigned long
+         |     byte_size 0x4
+         |     encoding unsigned
+  0x10e: |   pointer_type (4)
+         |     type 0x2b9
+  0x113: |   pointer_type (4)
+         |     type 0x7b1
+  0x118: |   base_type (2)
+         |     name unsigned short
+         |     byte_size 0x2
+         |     encoding unsigned
+  0x12a: |   pointer_type (4)
+         |     type 0x9ae
+  0x12f: |   pointer_type (4)
+         |     type 0x943
+  0x134: |   const_type (9)
+         |     type 0xe3
+  0x137: |   pointer_type (7)
+         |     type 0x134
+  0x13a: |   pointer_type (7)
+         |     type 0xb7
+  0x13d: |   pointer_type (4)
+         |     type 0x968
+  0x142: |   pointer_type (4)
+         |     type 0x9f5
+  0x147: |   base_type (2)
+         |     name signed char
+         |     byte_size 0x1
+         |     encoding signed_char
+  0x156: | + enumeration_type (19)
+         | |   sibling 0x229
+         | |   name ti_sysbios_knl_Task_Mode
+         | |   type 0xb7
+         | |   byte_size 0x1
+  0x177: | |   enumerator (20)
+         | |     name ti_sysbios_knl_Task_Mode_RUNNING
+         | |     const_value 0
+  0x19a: | |   enumerator (20)
+         | |     name ti_sysbios_knl_Task_Mode_READY
+         | |     const_value 1
+  0x1bb: | |   enumerator (20)
+         | |     name ti_sysbios_knl_Task_Mode_BLOCKED
+         | |     const_value 2
+  0x1de: | |   enumerator (20)
+         | |     name ti_sysbios_knl_Task_Mode_TERMINATED
+         | |     const_value 3
+  0x204: | |   enumerator (20)
+         | |     name ti_sysbios_knl_Task_Mode_INACTIVE
+         | |     const_value 4
+         | +-- 0
+  0x229: | + enumeration_type (19)
+         | |   sibling 0x2b9
+         | |   name EK_TM4C1294XL_GPIOName
+         | |   type 0xb7
+         | |   byte_size 0x1
+  0x248: | |   enumerator (20)
+         | |     name EK_TM4C1294XL_USR_SW1
+         | |     const_value 0
+  0x260: | |   enumerator (20)
+         | |     name EK_TM4C1294XL_USR_SW2
+         | |     const_value 1
+  0x278: | |   enumerator (20)
+         | |     name EK_TM4C1294XL_D1
+         | |     const_value 2
+  0x28b: | |   enumerator (20)
+         | |     name EK_TM4C1294XL_D2
+         | |     const_value 3
+  0x29e: | |   enumerator (20)
+         | |     name EK_TM4C1294XL_GPIOCOUNT
+         | |     const_value 4
+         | +-- 0
+  0x2b9: | + subroutine_type (21)
+         | |   sibling 0x2c9
+  0x2be: | |   formal_parameter (22)
+         | |     type 0x787
+  0x2c3: | |   formal_parameter (22)
+         | |     type 0x787
+         | +-- 0
+  0x2c9: | + array_type (23)
+         | |   sibling 0x2d5
+         | |   type 0x6ec
+  0x2d2: | |   subrange_type (24)
+         | |     upper_bound 7
+         | +-- 0
+  0x2d5: | + array_type (25)
+         | |   sibling 0x2e0
+         | |   type 0xb7
+  0x2dc: | |   subrange_type (24)
+         | |     upper_bound 255
+         | +-- 0
+  0x2e0: | + array_type (23)
+         | |   sibling 0x2ed
+         | |   type 0x6bf
+  0x2e9: | |   subrange_type (24)
+         | |     upper_bound 1023
+         | +-- 0
+  0x2ed: | + structure_type (26)
+         | |   sibling 0x30f
+         | |   name xdc_runtime_IHeap___Object
+         | |   byte_size 0x0
+         | +-- 0
+  0x30f: | + structure_type (26)
+         | |   sibling 0x333
+         | |   name xdc_runtime_Types_CordAddr__
+         | |   byte_size 0x0
+         | +-- 0
+  0x333: | + structure_type (26)
+         | |   sibling 0x375
+         | |   name xdc_runtime_IInstance_Params
+         | |   byte_size 0x8
+  0x356: | |   member (27)
+         | |     type 0x747
+         | |     accessibility public
+         | |     name __size
+         | |     data_member_location [plus_uconst 0]
+  0x366: | |   member (27)
+         | |     type 0x7c0
+         | |     accessibility public
+         | |     name name
+         | |     data_member_location [plus_uconst 4]
+         | +-- 0
+  0x375: | + structure_type (26)
+         | |   sibling 0x3ae
+         | |   name ti_sysbios_knl_Queue_Elem
+         | |   byte_size 0x8
+  0x395: | |   member (28)
+         | |     type 0xc4
+         | |     accessibility public
+         | |     name next
+         | |     data_member_location [plus_uconst 0]
+  0x3a1: | |   member (28)
+         | |     type 0xc4
+         | |     accessibility public
+         | |     name prev
+         | |     data_member_location [plus_uconst 4]
+         | +-- 0
+  0x3ae: | + structure_type (26)
+         | |   sibling 0x3d1
+         | |   name ti_sysbios_knl_Queue_Object
+         | |   byte_size 0x0
+         | +-- 0
+  0x3d1: | + structure_type (26)
+         | |   sibling 0x3f5
+         | |   name ti_sysbios_knl_Task_PendElem
+         | |   byte_size 0x0
+         | +-- 0
+  0x3f5: | + structure_type (26)
+         | |   sibling 0x4fd
+         | |   name ti_sysbios_knl_Task_Params
+         | |   byte_size 0x3c
+  0x416: | |   member (27)
+         | |     type 0x747
+         | |     accessibility public
+         | |     name __size
+         | |     data_member_location [plus_uconst 0]
+  0x426: | |   member (28)
+         | |     type 0x137
+         | |     accessibility public
+         | |     name __self
+         | |     data_member_location [plus_uconst 4]
+  0x434: | |   member (28)
+         | |     type 0xeb
+         | |     accessibility public
+         | |     name __fxns
+         | |     data_member_location [plus_uconst 8]
+  0x442: | |   member (28)
+         | |     type 0x13d
+         | |     accessibility public
+         | |     name instance
+         | |     data_member_location [plus_uconst 12]
+  0x452: | |   member (27)
+         | |     type 0x787
+         | |     accessibility public
+         | |     name arg0
+         | |     data_member_location [plus_uconst 16]
+  0x460: | |   member (27)
+         | |     type 0x787
+         | |     accessibility public
+         | |     name arg1
+         | |     data_member_location [plus_uconst 20]
+  0x46e: | |   member (27)
+         | |     type 0x729
+         | |     accessibility public
+         | |     name priority
+         | |     data_member_location [plus_uconst 24]
+  0x480: | |   member (27)
+         | |     type 0x7b1
+         | |     accessibility public
+         | |     name stack
+         | |     data_member_location [plus_uconst 28]
+  0x48f: | |   member (27)
+         | |     type 0x765
+         | |     accessibility public
+         | |     name stackSize
+         | |     data_member_location [plus_uconst 32]
+  0x4a2: | |   member (27)
+         | |     type 0x8ba
+         | |     accessibility public
+         | |     name stackHeap
+         | |     data_member_location [plus_uconst 36]
+  0x4b5: | |   member (27)
+         | |     type 0x7b1
+         | |     accessibility public
+         | |     name env
+         | |     data_member_location [plus_uconst 40]
+  0x4c2: | |   member (27)
+         | |     type 0x6f8
+         | |     accessibility public
+         | |     name vitalTaskFlag
+         | |     data_member_location [plus_uconst 44]
+  0x4d9: | |   member (27)
+         | |     type 0x755
+         | |     accessibility public
+         | |     name affinity
+         | |     data_member_location [plus_uconst 48]
+  0x4eb: | |   member (27)
+         | |     type 0x968
+         | |     accessibility public
+         | |     name __iprms
+         | |     data_member_location [plus_uconst 52]
+         | +-- 0
+  0x4fd: | + structure_type (26)
+         | |   sibling 0x62f
+         | |   name ti_sysbios_knl_Task_Struct
+         | |   byte_size 0x50
+  0x51e: | |   member (27)
+         | |     type 0x98d
+         | |     accessibility public
+         | |     name __f0
+         | |     data_member_location [plus_uconst 0]
+  0x52c: | |   member (28)
+         | |     type 0xce
+         | |     accessibility public
+         | |     name __f1
+         | |     data_member_location [plus_uconst 8]
+  0x538: | |   member (27)
+         | |     type 0x755
+         | |     accessibility public
+         | |     name __f2
+         | |     data_member_location [plus_uconst 12]
+  0x546: | |   member (27)
+         | |     type 0x7b1
+         | |     accessibility public
+         | |     name __f3
+         | |     data_member_location [plus_uconst 16]
+  0x554: | |   member (27)
+         | |     type 0x6cc
+         | |     accessibility public
+         | |     name __f4
+         | |     data_member_location [plus_uconst 20]
+  0x562: | |   member (28)
+         | |     type 0xee
+         | |     accessibility public
+         | |     name __f5
+         | |     data_member_location [plus_uconst 24]
+  0x56e: | |   member (27)
+         | |     type 0x765
+         | |     accessibility public
+         | |     name __f6
+         | |     data_member_location [plus_uconst 28]
+  0x57c: | |   member (27)
+         | |     type 0x80d
+         | |     accessibility public
+         | |     name __f7
+         | |     data_member_location [plus_uconst 32]
+  0x58a: | |   member (27)
+         | |     type 0x8ba
+         | |     accessibility public
+         | |     name __f8
+         | |     data_member_location [plus_uconst 36]
+  0x598: | |   member (27)
+         | |     type 0x920
+         | |     accessibility public
+         | |     name __f9
+         | |     data_member_location [plus_uconst 40]
+  0x5a6: | |   member (27)
+         | |     type 0x787
+         | |     accessibility public
+         | |     name __f10
+         | |     data_member_location [plus_uconst 44]
+  0x5b5: | |   member (27)
+         | |     type 0x787
+         | |     accessibility public
+         | |     name __f11
+         | |     data_member_location [plus_uconst 48]
+  0x5c4: | |   member (27)
+         | |     type 0x7b1
+         | |     accessibility public
+         | |     name __f12
+         | |     data_member_location [plus_uconst 52]
+  0x5d3: | |   member (27)
+         | |     type 0x881
+         | |     accessibility public
+         | |     name __f13
+         | |     data_member_location [plus_uconst 56]
+  0x5e2: | |   member (27)
+         | |     type 0x6f8
+         | |     accessibility public
+         | |     name __f14
+         | |     data_member_location [plus_uconst 60]
+  0x5f1: | |   member (27)
+         | |     type 0x8fd
+         | |     accessibility public
+         | |     name __f15
+         | |     data_member_location [plus_uconst 64]
+  0x600: | |   member (27)
+         | |     type 0x755
+         | |     accessibility public
+         | |     name __f16
+         | |     data_member_location [plus_uconst 68]
+  0x60f: | |   member (27)
+         | |     type 0x755
+         | |     accessibility public
+         | |     name __f17
+         | |     data_member_location [plus_uconst 72]
+  0x61e: | |   member (27)
+         | |     type 0x8db
+         | |     accessibility public
+         | |     name __name
+         | |     data_member_location [plus_uconst 76]
+         | +-- 0
+  0x62f: | + structure_type (26)
+         | |   sibling 0x651
+         | |   name SlInAddr_t
+         | |   byte_size 0x4
+  0x640: | |   member (27)
+         | |     type 0x7a4
+         | |     accessibility public
+         | |     name s_addr
+         | |     data_member_location [plus_uconst 0]
+         | +-- 0
+  0x651: | + structure_type (26)
+         | |   sibling 0x6af
+         | |   name SlSockAddrIn_t
+         | |   byte_size 0x10
+  0x666: | |   member (27)
+         | |     type 0x708
+         | |     accessibility public
+         | |     name sin_family
+         | |     data_member_location [plus_uconst 0]
+  0x67a: | |   member (27)
+         | |     type 0x708
+         | |     accessibility public
+         | |     name sin_port
+         | |     data_member_location [plus_uconst 2]
+  0x68c: | |   member (27)
+         | |     type 0xa39
+         | |     accessibility public
+         | |     name sin_addr
+         | |     data_member_location [plus_uconst 4]
+  0x69e: | |   member (28)
+         | |     type 0x2c9
+         | |     accessibility public
+         | |     name sin_zero
+         | |     data_member_location [plus_uconst 8]
+         | +-- 0
+  0x6af: |   typedef (29)
+         |     name xdc_Char
+         |     type 0xb7
+         |     decl_file 83
+         |     decl_line 29
+         |     decl_column 25
+         |     iar_decl_end_column 32
+  0x6bf: |   typedef (29)
+         |     name Char
+         |     type 0x6af
+         |     decl_file 83
+         |     decl_line 211
+         |     decl_column 25
+         |     iar_decl_end_column 28
+  0x6cc: |   typedef (29)
+         |     name ti_sysbios_knl_Task_Mode
+         |     type 0x156
+         |     decl_file 25
+         |     decl_line 90
+         |     decl_column 39
+         |     iar_decl_end_column 62
+  0x6ec: |   typedef (29)
+         |     name _i8
+         |     type 0x147
+         |     decl_file 41
+         |     decl_line 355
+         |     decl_column 29
+         |     iar_decl_end_column 31
+  0x6f8: |   typedef (29)
+         |     name xdc_Bool
+         |     type 0x118
+         |     decl_file 83
+         |     decl_line 45
+         |     decl_column 25
+         |     iar_decl_end_column 32
+  0x708: |   typedef (29)
+         |     name _u16
+         |     type 0x118
+         |     decl_file 41
+         |     decl_line 357
+         |     decl_column 30
+         |     iar_decl_end_column 33
+  0x715: |   typedef (29)
+         |     name SlSocklen_t
+         |     type 0x708
+         |     decl_file 42
+         |     decl_line 444
+         |     decl_column 14
+         |     iar_decl_end_column 24
+  0x729: |   typedef (29)
+         |     name xdc_Int
+         |     type 0xc7
+         |     decl_file 83
+         |     decl_line 33
+         |     decl_column 25
+         |     iar_decl_end_column 31
+  0x738: |   typedef (29)
+         |     name _Sizet
+         |     type 0xd3
+         |     decl_file 13
+         |     decl_line 437
+         |     decl_column 29
+         |     iar_decl_end_column 34
+  0x747: |   typedef (29)
+         |     name size_t
+         |     type 0x738
+         |     decl_file 12
+         |     decl_line 20
+         |     decl_column 16
+         |     iar_decl_end_column 21
+  0x755: |   typedef (29)
+         |     name xdc_UInt
+         |     type 0xd3
+         |     decl_file 83
+         |     decl_line 34
+         |     decl_column 25
+         |     iar_decl_end_column 32
+  0x765: |   typedef (29)
+         |     name xdc_SizeT
+         |     type 0x747
+         |     decl_file 83
+         |     decl_line 40
+         |     decl_column 25
+         |     iar_decl_end_column 33
+  0x776: |   typedef (29)
+         |     name uintptr_t
+         |     type 0xfd
+         |     decl_file 8
+         |     decl_line 98
+         |     decl_column 28
+         |     iar_decl_end_column 36
+  0x787: |   typedef (29)
+         |     name xdc_UArg
+         |     type 0x776
+         |     decl_file 15
+         |     decl_line 69
+         |     decl_column 25
+         |     iar_decl_end_column 32
+  0x797: |   typedef (29)
+         |     name UArg
+         |     type 0x787
+         |     decl_file 83
+         |     decl_line 228
+         |     decl_column 25
+         |     iar_decl_end_column 28
+  0x7a4: |   typedef (29)
+         |     name _u32
+         |     type 0xfd
+         |     decl_file 41
+         |     decl_line 360
+         |     decl_column 30
+         |     iar_decl_end_column 33
+  0x7b1: |   typedef (29)
+         |     name xdc_Ptr
+         |     type 0xeb
+         |     decl_file 83
+         |     decl_line 46
+         |     decl_column 26
+         |     iar_decl_end_column 32
+  0x7c0: |   typedef (29)
+         |     name xdc_String
+         |     type 0x13a
+         |     decl_file 83
+         |     decl_line 48
+         |     decl_column 26
+         |     iar_decl_end_column 35
+  0x7d2: |   typedef (29)
+         |     name __ARRAY1_ti_sysbios_knl_Task_Instance_State__stack
+         |     type 0xf3
+         |     decl_file 25
+         |     decl_line 141
+         |     decl_column 19
+         |     iar_decl_end_column 68
+  0x80d: |   typedef (29)
+         |     name __TA_ti_sysbios_knl_Task_Instance_State__stack
+         |     type 0x7d2
+         |     decl_file 25
+         |     decl_line 142
+         |     decl_column 60
+         |     iar_decl_end_column 105
+  0x844: |   typedef (29)
+         |     name __ARRAY1_ti_sysbios_knl_Task_Instance_State__hookEnv
+         |     type 0x113
+         |     decl_file 25
+         |     decl_line 144
+         |     decl_column 18
+         |     iar_decl_end_column 69
+  0x881: |   typedef (29)
+         |     name __TA_ti_sysbios_knl_Task_Instance_State__hookEnv
+         |     type 0x844
+         |     decl_file 25
+         |     decl_line 145
+         |     decl_column 62
+         |     iar_decl_end_column 109
+  0x8ba: |   typedef (29)
+         |     name xdc_runtime_IHeap_Handle
+         |     type 0xf8
+         |     decl_file 81
+         |     decl_line 160
+         |     decl_column 102
+         |     iar_decl_end_column 125
+  0x8db: |   typedef (29)
+         |     name xdc_runtime_Types_CordAddr
+         |     type 0x12f
+         |     decl_file 74
+         |     decl_line 77
+         |     decl_column 39
+         |     iar_decl_end_column 64
+  0x8fd: |   typedef (29)
+         |     name ti_sysbios_knl_Queue_Handle
+         |     type 0x12a
+         |     decl_file 30
+         |     decl_line 68
+         |     decl_column 38
+         |     iar_decl_end_column 64
+  0x920: |   typedef (29)
+         |     name ti_sysbios_knl_Task_FuncPtr
+         |     type 0x10e
+         |     decl_file 25
+         |     decl_line 77
+         |     decl_column 20
+         |     iar_decl_end_column 46
+  0x943: |   typedef (29)
+         |     name xdc_runtime_Types_CordAddr__
+         |     type 0x30f
+         |     decl_file 81
+         |     decl_line 293
+         |     decl_column 45
+         |     iar_decl_end_column 72
+  0x968: |   typedef (29)
+         |     name xdc_runtime_IInstance_Params
+         |     type 0x333
+         |     decl_file 81
+         |     decl_line 314
+         |     decl_column 45
+         |     iar_decl_end_column 72
+  0x98d: |   typedef (29)
+         |     name ti_sysbios_knl_Queue_Elem
+         |     type 0x375
+         |     decl_file 30
+         |     decl_line 64
+         |     decl_column 42
+         |     iar_decl_end_column 66
+  0x9ae: |   typedef (29)
+         |     name ti_sysbios_knl_Queue_Object
+         |     type 0x3ae
+         |     decl_file 30
+         |     decl_line 66
+         |     decl_column 44
+         |     iar_decl_end_column 70
+  0x9d1: |   typedef (29)
+         |     name ti_sysbios_knl_Task_PendElem
+         |     type 0x3d1
+         |     decl_file 30
+         |     decl_line 103
+         |     decl_column 45
+         |     iar_decl_end_column 72
+  0x9f5: |   typedef (29)
+         |     name ti_sysbios_knl_Task_Params
+         |     type 0x3f5
+         |     decl_file 30
+         |     decl_line 107
+         |     decl_column 43
+         |     iar_decl_end_column 68
+  0xa17: |   typedef (29)
+         |     name ti_sysbios_knl_Task_Struct
+         |     type 0x4fd
+         |     decl_file 30
+         |     decl_line 109
+         |     decl_column 43
+         |     iar_decl_end_column 68
+  0xa39: |   typedef (29)
+         |     name SlInAddr_t
+         |     type 0x62f
+         |     decl_file 42
+         |     decl_line 354
+         |     decl_column 2
+         |     iar_decl_end_column 11
+  0xa4c: |   typedef (29)
+         |     name SlSockAddrIn_t
+         |     type 0x651
+         |     decl_file 42
+         |     decl_line 481
+         |     decl_column 2
+         |     iar_decl_end_column 15
+         +-- 0
+
+
+-------------------------------------------------------------------------------
+Section #86 .rel.debug_info:
+
+  # Offset Relocation    Symbol              Section
+  - ------ ----------    ------              -------
+  0    0x6 2 R_ARM_ABS32 50 .debug_abbrev56  #56 .debug_abbrev
+  1   0xae 2 R_ARM_ABS32 56 .debug_line6      #6 .debug_line
+  2   0xb2 2 R_ARM_ABS32 57 .debug_macinfo62 #62 .debug_macinfo
+
+
+-------------------------------------------------------------------------------
+Section #8 .text:
+
+           $t:
+           `.text8`:
+           ti_sysbios_knl_Task_Params_init:
+    0x0: 0xb510         PUSH   {R4, LR}
+    0x2: 0x0004         MOVS   R4, R0
+    0x4: 0x2c00         CMP    R4, #0
+    0x6: 0xd005         BEQ.N  @14
+    0x8: 0x2308         MOVS   R3, #8
+    0xa: 0x223c         MOVS   R2, #60                ; 0x3c
+    0xc: 0x2100         MOVS   R1, #0
+    0xe: 0x0020         MOVS   R0, R4
+   0x10: 0xf7ff 0xfffe  BL     ti_sysbios_knl_Task_Params__init__S
+           @14:
+   0x14: 0xbd10         POP    {R4, PC}
+           gpioButtonFxn:                             ; Fragment start
+   0x16: 0x2101         MOVS   R1, #1
+   0x18: 0x4aff         LDR.N  R2, `.text_15`         ; smartConfigFlag
+   0x1a: 0x7011         STRB   R1, [R2]
+   0x1c: 0x4770         BX     LR
+           echoFxn:                                   ; Fragment start
+   0x1e: 0xe92d 0x4ff0  PUSH.W {R4-R11, LR}
+   0x22: 0xb0cb         SUB    SP, SP, #0x12c
+   0x24: 0x0004         MOVS   R4, R0
+   0x26: 0x2010         MOVS   R0, #16                ; 0x10
+   0x28: 0xf8ad 0x0004  STRH.W R0, [SP, #0x4]
+   0x2c: 0x2206         MOVS   R2, #6
+   0x2e: 0x2101         MOVS   R1, #1
+   0x30: 0x2002         MOVS   R0, #2
+   0x32: 0xf7ff 0xfffe  BL     sl_Socket
+   0x36: 0x4680         MOV    R8, R0
+   0x38: 0xf118 0x0f01  CMN.W  R8, #1
+   0x3c: 0xd103         BNE.N  @46
+   0x3e: 0x48ff         LDR.N  R0, `.text_16`         ; `.rodata14`
+   0x40: 0xf7ff 0xfffe  BL     xdc_runtime_System_printf__E
+   0x44: 0xe064         B.N    @110
+           @46:
+   0x46: 0xf05f 0x0910  MOVS.W R9, #16                ; 0x10
+   0x4a: 0xf05f 0x0a00  MOVS.W R10, #0
+   0x4e: 0xf10d 0x0b08  ADD.W  R11, SP, #8
+   0x52: 0x4652         MOV    R2, R10
+   0x54: 0x4649         MOV    R1, R9
+   0x56: 0x4658         MOV    R0, R11
+   0x58: 0xf7ff 0xfffe  BL     __aeabi_memset
+   0x5c: 0x2002         MOVS   R0, #2
+   0x5e: 0xf8ad 0x0008  STRH.W R0, [SP, #0x8]
+   0x62: 0x2000         MOVS   R0, #0
+   0x64: 0xf7ff 0xfffe  BL     sl_Htonl
+   0x68: 0x9003         STR    R0, [SP, #0xc]
+   0x6a: 0x0020         MOVS   R0, R4
+   0x6c: 0xb280         UXTH   R0, R0
+   0x6e: 0xf7ff 0xfffe  BL     sl_Htons
+   0x72: 0xf8ad 0x000a  STRH.W R0, [SP, #0xa]
+   0x76: 0x2210         MOVS   R2, #16                ; 0x10
+   0x78: 0xa902         ADD    R1, SP, #0x8
+   0x7a: 0x4640         MOV    R0, R8
+   0x7c: 0xb200         SXTH   R0, R0
+   0x7e: 0xf7ff 0xfffe  BL     sl_Bind
+   0x82: 0x9000         STR    R0, [SP]
+   0x84: 0x9800         LDR    R0, [SP]
+   0x86: 0xf110 0x0f01  CMN.W  R0, #1
+   0x8a: 0xd103         BNE.N  @94
+   0x8c: 0x48ff         LDR.N  R0, `.text_17`         ; `.rodata15`
+   0x8e: 0xf7ff 0xfffe  BL     xdc_runtime_System_printf__E
+   0x92: 0xe03d         B.N    @110
+           @94:
+   0x94: 0x2100         MOVS   R1, #0
+   0x96: 0x4640         MOV    R0, R8
+   0x98: 0xb200         SXTH   R0, R0
+   0x9a: 0xf7ff 0xfffe  BL     sl_Listen
+   0x9e: 0x9000         STR    R0, [SP]
+   0xa0: 0x9800         LDR    R0, [SP]
+   0xa2: 0xf110 0x0f01  CMN.W  R0, #1
+   0xa6: 0xd103         BNE.N  @b0
+   0xa8: 0x48ff         LDR.N  R0, `.text_18`         ; `.rodata16`
+   0xaa: 0xf7ff 0xfffe  BL     xdc_runtime_System_printf__E
+   0xae: 0xe02f         B.N    @110
+           @b0:
+   0xb0: 0xaa01         ADD    R2, SP, #0x4
+   0xb2: 0xa906         ADD    R1, SP, #0x18
+   0xb4: 0x4640         MOV    R0, R8
+   0xb6: 0xb200         SXTH   R0, R0
+   0xb8: 0xf7ff 0xfffe  BL     sl_Accept
+   0xbc: 0x0007         MOVS   R7, R0
+   0xbe: 0xf117 0x0f01  CMN.W  R7, #1
+   0xc2: 0xd022         BEQ.N  @10a
+           @c4:
+   0xc4: 0x2300         MOVS   R3, #0
+   0xc6: 0xf44f 0x7280  MOV.W  R2, #256               ; 0x100
+   0xca: 0xa90a         ADD    R1, SP, #0x28
+   0xcc: 0x0038         MOVS   R0, R7
+   0xce: 0xb200         SXTH   R0, R0
+   0xd0: 0xf7ff 0xfffe  BL     sl_Recv
+   0xd4: 0x0005         MOVS   R5, R0
+   0xd6: 0x2d01         CMP    R5, #1
+   0xd8: 0xdb0f         BLT.N  @fa
+   0xda: 0x2300         MOVS   R3, #0
+   0xdc: 0x002a         MOVS   R2, R5
+   0xde: 0xb212         SXTH   R2, R2
+   0xe0: 0xa90a         ADD    R1, SP, #0x28
+   0xe2: 0x0038         MOVS   R0, R7
+   0xe4: 0xb200         SXTH   R0, R0
+   0xe6: 0xf7ff 0xfffe  BL     sl_Send
+   0xea: 0x0006         MOVS   R6, R0
+   0xec: 0x2e00         CMP    R6, #0
+   0xee: 0xd401         BMI.N  @f4
+   0xf0: 0x42ae         CMP    R6, R5
+   0xf2: 0xd0e7         BEQ.N  @c4
+           @f4:
+   0xf4: 0x48ff         LDR.N  R0, `.text_19`         ; `.rodata17`
+   0xf6: 0xf7ff 0xfffe  BL     xdc_runtime_System_printf__E
+           @fa:
+   0xfa: 0x2010         MOVS   R0, #16                ; 0x10
+   0xfc: 0xf8ad 0x0004  STRH.W R0, [SP, #0x4]
+  0x100: 0x0038         MOVS   R0, R7
+  0x102: 0xb200         SXTH   R0, R0
+  0x104: 0xf7ff 0xfffe  BL     sl_Close
+  0x108: 0xe7d2         B.N    @b0
+           @10a:
+  0x10a: 0x48ff         LDR.N  R0, `.text_20`         ; `.rodata18`
+  0x10c: 0xf7ff 0xfffe  BL     xdc_runtime_System_printf__E
+           @110:
+  0x110: 0xf1b8 0x0f00  CMP.W  R8, #0
+  0x114: 0xd403         BMI.N  @11e
+  0x116: 0x4640         MOV    R0, R8
+  0x118: 0xb200         SXTH   R0, R0
+  0x11a: 0xf7ff 0xfffe  BL     sl_Close
+           @11e:
+  0x11e: 0xb04b         ADD    SP, SP, #0x12c
+  0x120: 0xe8bd 0x8ff0  POP.W  {R4-R11, PC}
+           tcpEchoTask:                               ; Fragment start
+  0x124: 0xb570         PUSH   {R4-R6, LR}
+  0x126: 0x0004         MOVS   R4, R0
+  0x128: 0x000d         MOVS   R5, R1
+  0x12a: 0xf7ff 0xfffe  BL     socketsStartUp
+  0x12e: 0x0006         MOVS   R6, R0
+  0x130: 0xf44f 0x707a  MOV.W  R0, #1000              ; 0x3e8
+  0x134: 0xf7ff 0xfffe  BL     echoFxn
+  0x138: 0x0030         MOVS   R0, R6
+  0x13a: 0xf7ff 0xfffe  BL     socketsShutDown
+  0x13e: 0xbd70         POP    {R4-R6, PC}
+           TcpEchoInit:                               ; Fragment start
+  0x140: 0xb500         PUSH   {LR}
+  0x142: 0xb08f         SUB    SP, SP, #0x3c
+  0x144: 0x4668         MOV    R0, SP
+  0x146: 0xf7ff 0xfffe  BL     ti_sysbios_knl_Task_Params_init
+  0x14a: 0xf44f 0x6080  MOV.W  R0, #1024              ; 0x400
+  0x14e: 0x9008         STR    R0, [SP, #0x20]
+  0x150: 0x48ff         LDR.N  R0, `.text_21`         ; task0Stack
+  0x152: 0x9007         STR    R0, [SP, #0x1c]
+  0x154: 0x2001         MOVS   R0, #1
+  0x156: 0x9006         STR    R0, [SP, #0x18]
+  0x158: 0x2300         MOVS   R3, #0
+  0x15a: 0x466a         MOV    R2, SP
+  0x15c: 0x49ff         LDR.N  R1, `.text_22`         ; tcpEchoTask
+  0x15e: 0x48ff         LDR.N  R0, `.text_23`         ; task0Struct
+  0x160: 0xf7ff 0xfffe  BL     ti_sysbios_knl_Task_construct
+  0x164: 0x49ff         LDR.N  R1, `.text_24`         ; gpioButtonFxn
+  0x166: 0x2001         MOVS   R0, #1
+  0x168: 0xf7ff 0xfffe  BL     GPIO_setCallback
+  0x16c: 0x2001         MOVS   R0, #1
+  0x16e: 0xf7ff 0xfffe  BL     GPIO_enableInt
+  0x172: 0x2101         MOVS   R1, #1
+  0x174: 0x2002         MOVS   R0, #2
+  0x176: 0xf7ff 0xfffe  BL     GPIO_write
+  0x17a: 0x48ff         LDR.N  R0, `.text_25`         ; `.rodata19`
+  0x17c: 0xf7ff 0xfffe  BL     xdc_runtime_System_printf__E
+  0x180: 0xf7ff 0xfffe  BL     xdc_runtime_System_flush__E
+  0x184: 0x2000         MOVS   R0, #0
+  0x186: 0xb00f         ADD    SP, SP, #0x3c
+  0x188: 0xbd00         POP    {PC}
+  0x18a: 0x0000         MOVS   R0, R0
+           $d:                                        ; Fragment start
+           `.text_15`:
+  0x18c: 0x00000000     DC32   smartConfigFlag
+           `.text_16`:                                ; Fragment start
+  0x190: 0x00000000     DC32   `.rodata14`
+           `.text_17`:                                ; Fragment start
+  0x194: 0x00000000     DC32   `.rodata15`
+           `.text_18`:                                ; Fragment start
+  0x198: 0x00000000     DC32   `.rodata16`
+           `.text_19`:                                ; Fragment start
+  0x19c: 0x00000000     DC32   `.rodata17`
+           `.text_20`:                                ; Fragment start
+  0x1a0: 0x00000000     DC32   `.rodata18`
+           `.text_21`:                                ; Fragment start
+  0x1a4: 0x00000000     DC32   task0Stack
+           `.text_22`:                                ; Fragment start
+  0x1a8: 0x00000000     DC32   tcpEchoTask
+           `.text_23`:                                ; Fragment start
+  0x1ac: 0x00000000     DC32   task0Struct
+           `.text_24`:                                ; Fragment start
+  0x1b0: 0x00000000     DC32   gpioButtonFxn
+           `.text_25`:                                ; Fragment start
+  0x1b4: 0x00000000     DC32   `.rodata19`
+
+
+-------------------------------------------------------------------------------
+Section #107 .rel.text:
+
+  #  Offset Relocation        Symbol                                 Section
+  -  ------ ----------        ------                                 -------
+   0   0x10 10 R_ARM_THM_CALL 91 ti_sysbios_knl_Task_Params__init__S     Ext
+   1   0x18 11 R_ARM_THM_PC8  22 .text_15                             #8 .text
+   2   0x32 10 R_ARM_THM_CALL 87 sl_Socket                               Ext
+   3   0x3e 11 R_ARM_THM_PC8  24 .text_16                             #8 .text
+   4   0x40 10 R_ARM_THM_CALL 94 xdc_runtime_System_printf__E            Ext
+   5   0x58 10 R_ARM_THM_CALL 78 __aeabi_memset                          Ext
+   6   0x64 10 R_ARM_THM_CALL 82 sl_Htonl                                Ext
+   7   0x6e 10 R_ARM_THM_CALL 83 sl_Htons                                Ext
+   8   0x7e 10 R_ARM_THM_CALL 80 sl_Bind                                 Ext
+   9   0x8c 11 R_ARM_THM_PC8  25 .text_17                             #8 .text
+  10   0x8e 10 R_ARM_THM_CALL 94 xdc_runtime_System_printf__E            Ext
+  11   0x9a 10 R_ARM_THM_CALL 84 sl_Listen                               Ext
+  12   0xa8 11 R_ARM_THM_PC8  26 .text_18                             #8 .text
+  13   0xaa 10 R_ARM_THM_CALL 94 xdc_runtime_System_printf__E            Ext
+  14   0xb8 10 R_ARM_THM_CALL 79 sl_Accept                               Ext
+  15   0xd0 10 R_ARM_THM_CALL 85 sl_Recv                                 Ext
+  16   0xe6 10 R_ARM_THM_CALL 86 sl_Send                                 Ext
+  17   0xf4 11 R_ARM_THM_PC8  27 .text_19                             #8 .text
+  18   0xf6 10 R_ARM_THM_CALL 94 xdc_runtime_System_printf__E            Ext
+  19  0x104 10 R_ARM_THM_CALL 81 sl_Close                                Ext
+  20  0x10a 11 R_ARM_THM_PC8  28 .text_20                             #8 .text
+  21  0x10c 10 R_ARM_THM_CALL 94 xdc_runtime_System_printf__E            Ext
+  22  0x11a 10 R_ARM_THM_CALL 81 sl_Close                                Ext
+  23  0x12a 10 R_ARM_THM_CALL 90 socketsStartUp                          Ext
+  24  0x134 10 R_ARM_THM_CALL  3 echoFxn                              #8 .text
+  25  0x13a 10 R_ARM_THM_CALL 89 socketsShutDown                         Ext
+  26  0x146 10 R_ARM_THM_CALL  8 ti_sysbios_knl_Task_Params_init      #8 .text
+  27  0x150 11 R_ARM_THM_PC8  29 .text_21                             #8 .text
+  28  0x15c 11 R_ARM_THM_PC8  30 .text_22                             #8 .text
+  29  0x15e 11 R_ARM_THM_PC8  31 .text_23                             #8 .text
+  30  0x160 10 R_ARM_THM_CALL 92 ti_sysbios_knl_Task_construct           Ext
+  31  0x164 11 R_ARM_THM_PC8  32 .text_24                             #8 .text
+  32  0x168 10 R_ARM_THM_CALL 76 GPIO_setCallback                        Ext
+  33  0x16e 10 R_ARM_THM_CALL 75 GPIO_enableInt                          Ext
+  34  0x176 10 R_ARM_THM_CALL 77 GPIO_write                              Ext
+  35  0x17a 11 R_ARM_THM_PC8  33 .text_25                             #8 .text
+  36  0x17c 10 R_ARM_THM_CALL 94 xdc_runtime_System_printf__E            Ext
+  37  0x180 10 R_ARM_THM_CALL 93 xdc_runtime_System_flush__E             Ext
+  38  0x18c  2 R_ARM_ABS32    88 smartConfigFlag                         Ext
+  39  0x190  2 R_ARM_ABS32    38 .rodata14                           #14 .rodata
+  40  0x194  2 R_ARM_ABS32    40 .rodata15                           #15 .rodata
+  41  0x198  2 R_ARM_ABS32    42 .rodata16                           #16 .rodata
+  42  0x19c  2 R_ARM_ABS32    44 .rodata17                           #17 .rodata
+  43  0x1a0  2 R_ARM_ABS32    46 .rodata18                           #18 .rodata
+  44  0x1a4  2 R_ARM_ABS32     5 task0Stack                          #10 .bss
+  45  0x1a8  2 R_ARM_ABS32     7 tcpEchoTask                          #8 .text
+  46  0x1ac  2 R_ARM_ABS32     6 task0Struct                          #9 .bss
+  47  0x1b0  2 R_ARM_ABS32     4 gpioButtonFxn                        #8 .text
+  48  0x1b4  2 R_ARM_ABS32    48 .rodata19                           #19 .rodata
+
+
+-------------------------------------------------------------------------------
+Section #11 .iar_vfe_header:
+
+  0x0:  00 00 00 00                                      ....            
+
+  This file has been checked for virtual function elimination
+
+
+-------------------------------------------------------------------------------
+Section #12 __DLIB_PERTHREAD: - No content -
+
+
+
+-------------------------------------------------------------------------------
+Section #13 __DLIB_PERTHREAD_init: - No content -
+
+
+
+-------------------------------------------------------------------------------
+Section #14 .rodata:
+
+   0x0:  45 72 72 6f 72 3a 20 73 6f 63 6b 65 74 20 6e 6f  Error: socket no
+  0x10:  74 20 63 72 65 61 74 65 64 2e 0a 00              t created...    
+
+
+-------------------------------------------------------------------------------
+Section #15 .rodata:
+
+   0x0:  45 72 72 6f 72 3a 20 62 69 6e 64 20 66 61 69 6c  Error: bind fail
+  0x10:  65 64 2e 0a 00 00 00 00                          ed......        
+
+
+-------------------------------------------------------------------------------
+Section #16 .rodata:
+
+   0x0:  45 72 72 6f 72 3a 20 6c 69 73 74 65 6e 20 66 61  Error: listen fa
+  0x10:  69 6c 65 64 2e 0a 00 00                          iled....        
+
+
+-------------------------------------------------------------------------------
+Section #17 .rodata:
+
+   0x0:  45 72 72 6f 72 3a 20 73 65 6e 64 20 66 61 69 6c  Error: send fail
+  0x10:  65 64 2e 0a 00 00 00 00                          ed......        
+
+
+-------------------------------------------------------------------------------
+Section #18 .rodata:
+
+   0x0:  45 72 72 6f 72 3a 20 61 63 63 65 70 74 20 66 61  Error: accept fa
+  0x10:  69 6c 65 64 2e 0a 00 00                          iled....        
+
+
+-------------------------------------------------------------------------------
+Section #19 .rodata:
+
+   0x0:  53 74 61 72 74 69 6e 67 20 74 68 65 20 54 43 50  Starting the TCP
+  0x10:  20 45 63 68 6f 20 65 78 61 6d 70 6c 65 20 66 6f   Echo example fo
+  0x20:  72 20 74 68 65 20 43 43 33 58 30 30 20 0a 53 79  r the CC3X00 .Sy
+  0x30:  73 74 65 6d 20 70 72 6f 76 69 64 65 72 20 69 73  stem provider is
+  0x40:  20 73 65 74 20 74 6f 20 53 79 73 4d 69 6e 2e 20   set to SysMin. 
+  0x50:  48 61 6c 74 20 74 68 65 20 74 61 72 67 65 74 20  Halt the target 
+  0x60:  74 6f 20 76 69 65 77 20 61 6e 79 20 53 79 73 4d  to view any SysM
+  0x70:  69 6e 20 63 6f 6e 74 65 6e 74 20 69 6e 20 52 4f  in content in RO
+  0x80:  56 2e 0a 00                                      V...            
+
+
+-------------------------------------------------------------------------------
+Section #20 .debug_info:
+
+   0x0: 208 bytes, version 3, abbrevs #56, addr size 4
+   0xb: + compile_unit (1)
+        |   name c:\ti\tirtos_tivac_2_16_01_14\tirtos_tivac_2_16_01_14_examples\IAR\EK_TM4C1294XL\tcpEchoCC3X00\tcpEchoCC3X00.c
+        |   producer IAR ANSI C/C++ Compiler V7.80.1.11864/W32 for ARM
+        |   language C99
+        |   stmt_list #6
+        |   macro_info #62
+        |   use_UTF8 0x1
+  0xb7: |   variable (3)
+        |     name task0Stack
+        |     type #7:0x2e0
+        |     decl_file 52
+        |     decl_line 32
+        |     decl_column 13
+        |     iar_decl_end_column 22
+        |     external 0x0
+        |     location [addr task0Stack]
+        |     iar_static_storage_duration 0x1
+        +-- 0
+
+
+-------------------------------------------------------------------------------
+Section #64 .rel.debug_info:
+
+  # Offset Relocation    Symbol              Section
+  - ------ ----------    ------              -------
+  0    0x6 2 R_ARM_ABS32 50 .debug_abbrev56  #56 .debug_abbrev
+  1   0xce 2 R_ARM_ABS32  5 task0Stack       #10 .bss
+  2   0xc3 2 R_ARM_ABS32 52 .debug_info7      #7 .debug_info
+  3   0xae 2 R_ARM_ABS32 56 .debug_line6      #6 .debug_line
+  4   0xb2 2 R_ARM_ABS32 57 .debug_macinfo62 #62 .debug_macinfo
+
+
+-------------------------------------------------------------------------------
+Section #21 .debug_info:
+
+   0x0: 209 bytes, version 3, abbrevs #56, addr size 4
+   0xb: + compile_unit (1)
+        |   name c:\ti\tirtos_tivac_2_16_01_14\tirtos_tivac_2_16_01_14_examples\IAR\EK_TM4C1294XL\tcpEchoCC3X00\tcpEchoCC3X00.c
+        |   producer IAR ANSI C/C++ Compiler V7.80.1.11864/W32 for ARM
+        |   language C99
+        |   stmt_list #6
+        |   macro_info #62
+        |   use_UTF8 0x1
+  0xb7: |   variable (3)
+        |     name task0Struct
+        |     type #7:0xa17
+        |     decl_file 52
+        |     decl_line 31
+        |     decl_column 20
+        |     iar_decl_end_column 30
+        |     external 0x0
+        |     location [addr task0Struct]
+        |     iar_static_storage_duration 0x1
+        +-- 0
+
+
+-------------------------------------------------------------------------------
+Section #63 .rel.debug_info:
+
+  # Offset Relocation    Symbol              Section
+  - ------ ----------    ------              -------
+  0    0x6 2 R_ARM_ABS32 50 .debug_abbrev56  #56 .debug_abbrev
+  1   0xcf 2 R_ARM_ABS32  6 task0Struct       #9 .bss
+  2   0xc4 2 R_ARM_ABS32 52 .debug_info7      #7 .debug_info
+  3   0xae 2 R_ARM_ABS32 56 .debug_line6      #6 .debug_line
+  4   0xb2 2 R_ARM_ABS32 57 .debug_macinfo62 #62 .debug_macinfo
+
+
+-------------------------------------------------------------------------------
+Section #22 .iar.stackusage:
+
+  Stack usage (v5) in #8 for ti_sysbios_knl_Task_Params_init
+    Stack usage 8
+      Call ti_sysbios_knl_Task_Params__init__S
+  Stack usage (v5) in #8:0x16 for gpioButtonFxn
+    Stack usage 0
+      No call
+  Stack usage (v5) in #8:0x1e for echoFxn
+    Stack usage 336
+      Call __aeabi_memset
+    Stack usage 336
+      Call sl_Accept
+    Stack usage 336
+      Call sl_Bind
+    Stack usage 336
+      Call sl_Close
+    Stack usage 336
+      Call sl_Htonl
+    Stack usage 336
+      Call sl_Htons
+    Stack usage 336
+      Call sl_Listen
+    Stack usage 336
+      Call sl_Recv
+    Stack usage 336
+      Call sl_Send
+    Stack usage 336
+      Call sl_Socket
+    Stack usage 336
+      Call xdc_runtime_System_printf__E
+  Stack usage (v5) in #8:0x124 for tcpEchoTask
+    Stack usage 16
+      Call echoFxn
+    Stack usage 16
+      Call socketsShutDown
+    Stack usage 16
+      Call socketsStartUp
+  Stack usage (v5) in #8:0x140 for TcpEchoInit
+    Stack usage 64
+      Call ti_sysbios_knl_Task_Params_init
+    Stack usage 64
+      Call GPIO_enableInt
+    Stack usage 64
+      Call GPIO_setCallback
+        gpioButtonFxn in arg 1
+    Stack usage 64
+      Call GPIO_write
+    Stack usage 64
+      Call ti_sysbios_knl_Task_construct
+        tcpEchoTask in arg 1
+    Stack usage 64
+      Call xdc_runtime_System_flush__E
+    Stack usage 64
+      Call xdc_runtime_System_printf__E
+
+
+-------------------------------------------------------------------------------
+Section #28 .rel.iar.stackusage:
+
+  #  Offset Relocation   Symbol                                 Section
+  -  ------ ----------   ------                                 -------
+   0    0x0 0 R_ARM_NONE  9 .text8                              #8 .text
+   1    0x1 0 R_ARM_NONE  8 ti_sysbios_knl_Task_Params_init     #8 .text
+   2    0x6 0 R_ARM_NONE 91 ti_sysbios_knl_Task_Params__init__S    Ext
+   3    0x7 0 R_ARM_NONE 14 .text_11                            #8 .text
+   4    0x8 0 R_ARM_NONE  4 gpioButtonFxn                       #8 .text
+   5    0xd 0 R_ARM_NONE 16 .text_12                            #8 .text
+   6    0xe 0 R_ARM_NONE  3 echoFxn                             #8 .text
+   7   0x14 0 R_ARM_NONE 78 __aeabi_memset                         Ext
+   8   0x18 0 R_ARM_NONE 79 sl_Accept                              Ext
+   9   0x1c 0 R_ARM_NONE 80 sl_Bind                                Ext
+  10   0x20 0 R_ARM_NONE 81 sl_Close                               Ext
+  11   0x24 0 R_ARM_NONE 82 sl_Htonl                               Ext
+  12   0x28 0 R_ARM_NONE 83 sl_Htons                               Ext
+  13   0x2c 0 R_ARM_NONE 84 sl_Listen                              Ext
+  14   0x30 0 R_ARM_NONE 85 sl_Recv                                Ext
+  15   0x34 0 R_ARM_NONE 86 sl_Send                                Ext
+  16   0x38 0 R_ARM_NONE 87 sl_Socket                              Ext
+  17   0x3c 0 R_ARM_NONE 94 xdc_runtime_System_printf__E           Ext
+  18   0x3d 0 R_ARM_NONE 18 .text_13                            #8 .text
+  19   0x3e 0 R_ARM_NONE  7 tcpEchoTask                         #8 .text
+  20   0x43 0 R_ARM_NONE  3 echoFxn                             #8 .text
+  21   0x46 0 R_ARM_NONE 89 socketsShutDown                        Ext
+  22   0x49 0 R_ARM_NONE 90 socketsStartUp                         Ext
+  23   0x4a 0 R_ARM_NONE 20 .text_14                            #8 .text
+  24   0x4b 0 R_ARM_NONE 95 TcpEchoInit                         #8 .text
+  25   0x50 0 R_ARM_NONE  8 ti_sysbios_knl_Task_Params_init     #8 .text
+  26   0x53 0 R_ARM_NONE 75 GPIO_enableInt                         Ext
+  27   0x56 0 R_ARM_NONE 76 GPIO_setCallback                       Ext
+  28   0x58 0 R_ARM_NONE  4 gpioButtonFxn                       #8 .text
+  29   0x5b 0 R_ARM_NONE 77 GPIO_write                             Ext
+  30   0x5e 0 R_ARM_NONE 92 ti_sysbios_knl_Task_construct          Ext
+  31   0x60 0 R_ARM_NONE  7 tcpEchoTask                         #8 .text
+  32   0x63 0 R_ARM_NONE 93 xdc_runtime_System_flush__E            Ext
+  33   0x66 0 R_ARM_NONE 94 xdc_runtime_System_printf__E           Ext
+
+
+-------------------------------------------------------------------------------
+Section #23 .debug_frame:
+
+  CIE 0x0: 88 bytes, version = 3, caf 0x2, daf -0x4, ret R14
+    0x0 def_cfa_sf R13 0x0
+        undefined  R0
+        undefined  R1
+        undefined  R2
+        undefined  R3
+        same_value R4
+        same_value R5
+        same_value R6
+        same_value R7
+        same_value R8
+        same_value R9
+        same_value R10
+        same_value R11
+        undefined  R12
+        same_value R14
+        undefined  D0
+        undefined  D1
+        undefined  D2
+        undefined  D3
+        undefined  D4
+        undefined  D5
+        undefined  D6
+        undefined  D7
+        same_value D8
+        same_value D9
+        same_value D10
+        same_value D11
+        same_value D12
+        same_value D13
+        same_value D14
+        same_value D15
+  FDE 0x5c: 19 bytes, CIE 0x0, loc .text8, range 0x16
+    0x0 advance_loc       0x2
+    0x2 def_cfa_offset_sf 0x8
+        offset            R4 -0x8
+        offset            R14 -0x4
+
+
+-------------------------------------------------------------------------------
+Section #24 .rel.debug_frame:
+
+  # Offset Relocation    Symbol            Section
+  - ------ ----------    ------            -------
+  0   0x60 2 R_ARM_ABS32 10 .debug_frame23 #23 .debug_frame
+  1   0x64 2 R_ARM_ABS32  9 .text8          #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #25 .iar.debug_line:
+
+  0x0: 103 bytes, version 1
+    2 functions
+      N0001:  ref  #27:0xc3
+      N0002:  addr ti_sysbios_knl_Task_Params__init__S
+    0 types
+    t_org .text8
+    t_statement_info COMMON
+      id = 0, version = 1, code factor = 2, line base = 0,
+      line range = 5, start col base = -8, start col range = 17,
+      end col base = -20, end col range = 41, opcode base = 14
+    t_statement_info DATA
+      code factor 2, total bytes 22
+      fun N0001 PRIMARY o0 [C:\ti\tirtos_tivac_2_16_01_14\products\bios_6_45_02_31\packages\ti\sysbios\knl\Task.h\812:1-817:1]
+          set_step_kind 3
+          set_extra_lines 1
+          advance_line 49742
+          Special(pc 0, line 4, scol 1, ecol 1)
+        0 @0x0 Func begin([C:\ti\tirtos_tivac_2_16_01_14\products\bios_6_45_02_31\packages\ti\sysbios\knl\Task.h\812:1-813:1])
+          add_reachable 5
+          Special(pc 4, line 2, scol 4, ecol 12)
+        1 @0x4 Statement([C:\ti\tirtos_tivac_2_16_01_14\products\bios_6_45_02_31\packages\ti\sysbios\knl\Task.h\814:5-13])
+          advance_end_col 94
+          Special(pc 4, line 1, scol 4, ecol 20)
+        2 @0x8 Statement([C:\ti\tirtos_tivac_2_16_01_14\products\bios_6_45_02_31\packages\ti\sysbios\knl\Task.h\815:9-127])
+          direct_call N0002
+          Special(pc 8, line 0, scol 0, ecol -1)
+        3 @0x10 Direct call([C:\ti\tirtos_tivac_2_16_01_14\products\bios_6_45_02_31\packages\ti\sysbios\knl\Task.h\815:9-126])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+        4 @0x14 Return([C:\ti\tirtos_tivac_2_16_01_14\products\bios_6_45_02_31\packages\ti\sysbios\knl\Task.h\815:9-126])
+          clear_reachable
+          add_reachable exit
+          advance_end_col -105
+          Special(pc 0, line 2, scol -8, ecol -20)
+        5 @0x14 Statement([C:\ti\tirtos_tivac_2_16_01_14\products\bios_6_45_02_31\packages\ti\sysbios\knl\Task.h\817:1-1])
+
+
+-------------------------------------------------------------------------------
+Section #98 .rel.iar.debug_line:
+
+  # Offset Relocation    Symbol                                 Section
+  - ------ ----------    ------                                 -------
+  0    0x6 2 R_ARM_ABS32  9 .text8                               #8 .text
+  1    0xf 2 R_ARM_ABS32 55 .debug_info27                       #27 .debug_info
+  2   0x14 2 R_ARM_ABS32 91 ti_sysbios_knl_Task_Params__init__S     Ext
+
+
+-------------------------------------------------------------------------------
+Section #26 .debug_line:
+
+  0x0: 143 bytes, utf8, version 2, 110 prologue bytes
+    code factor 2, line base 0, line range 5, opcode base 10
+    opcode lengths [0 1 1 1 1 0 0 0 0]
+
+    Directories:
+      1:  'C:\ti\tirtos_tivac_2_16_01_14\products\bios_6_45_02_31\packages\ti\sysbios\knl'
+
+    Files:
+      1:  Apr 23 04:09:02 2016  1093 li  1  'Task.h'
+
+         set_address .text8
+         set_column 1
+         advance_line 808
+         special(0x0, 4)
+     0x0 [813:1]
+         set_column 5
+         special(0x4, 1)
+     0x4 [814:5]
+         set_column 9
+         special(0x4, 1)
+     0x8 [815:9]
+         set_column 1
+         special(0xc, 2)
+    0x14 [817:1]
+         advance_pc 0x2
+         end_sequence
+    0x16
+
+
+-------------------------------------------------------------------------------
+Section #97 .rel.debug_line:
+
+  # Offset Relocation    Symbol   Section
+  - ------ ----------    ------   -------
+  0   0x7b 2 R_ARM_ABS32 9 .text8 #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #27 .debug_info:
+
+   0x0: 267 bytes, version 3, abbrevs #56, addr size 4
+   0xb: + compile_unit (8)
+        |   name c:\ti\tirtos_tivac_2_16_01_14\tirtos_tivac_2_16_01_14_examples\IAR\EK_TM4C1294XL\tcpEchoCC3X00\tcpEchoCC3X00.c
+        |   producer IAR ANSI C/C++ Compiler V7.80.1.11864/W32 for ARM
+        |   language C99
+        |   low_pc .text8
+        |   high_pc .text8 + 0x16
+        |   stmt_list #26
+        |   iar_stmt_list #25
+        |   iar_source_line_sequence #7:0xb
+        |   use_UTF8 0x1
+  0xc3: | + subprogram (10)
+        | |   sibling 0x10e
+        | |   name ti_sysbios_knl_Task_Params_init
+        | |   decl_file 1
+        | |   decl_line 812
+        | |   decl_column 20
+        | |   iar_decl_end_column 50
+        | |   external 0x0
+        | |   frame_base #50 <0x0-0x2:[breg13 0]|0x2-0x16:[breg13 8]>
+        | |   low_pc .text8
+        | |   high_pc .text8 + 0x16
+  0xfa: | |   formal_parameter (11)
+        | |     name prms
+        | |     decl_file 1
+        | |     decl_line 812
+        | |     decl_column 81
+        | |     iar_decl_end_column 84
+        | |     type #7:0x142
+        | |     location #50:0x20 <0x4-0x16:[reg4]>
+        | +-- 0
+        +-- 0
+
+
+-------------------------------------------------------------------------------
+Section #57 .rel.debug_info:
+
+  #  Offset Relocation    Symbol               Section
+  -  ------ ----------    ------               -------
+   0    0x6 2 R_ARM_ABS32 50 .debug_abbrev56   #56 .debug_abbrev
+   1   0xf2 2 R_ARM_ABS32  9 .text8             #8 .text
+   2   0xf6 2 R_ARM_ABS32  9 .text8             #8 .text
+   3   0xae 2 R_ARM_ABS32  9 .text8             #8 .text
+   4   0xb2 2 R_ARM_ABS32  9 .text8             #8 .text
+   5   0xee 2 R_ARM_ABS32 51 .debug_loc50      #50 .debug_loc
+   6  0x105 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+   7  0x109 2 R_ARM_ABS32 51 .debug_loc50      #50 .debug_loc
+   8   0xb6 2 R_ARM_ABS32 53 .debug_line26     #26 .debug_line
+   9   0xba 2 R_ARM_ABS32 54 .iar.debug_line25 #25 .iar.debug_line
+  10   0xbe 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #29 .debug_frame:
+
+  CIE 0x0: 88 bytes, version = 3, caf 0x2, daf -0x4, ret R14
+    0x0 def_cfa_sf R13 0x0
+        undefined  R0
+        undefined  R1
+        undefined  R2
+        undefined  R3
+        same_value R4
+        same_value R5
+        same_value R6
+        same_value R7
+        same_value R8
+        same_value R9
+        same_value R10
+        same_value R11
+        undefined  R12
+        same_value R14
+        undefined  D0
+        undefined  D1
+        undefined  D2
+        undefined  D3
+        undefined  D4
+        undefined  D5
+        undefined  D6
+        undefined  D7
+        same_value D8
+        same_value D9
+        same_value D10
+        same_value D11
+        same_value D12
+        same_value D13
+        same_value D14
+        same_value D15
+  FDE 0x5c: 12 bytes, CIE 0x0, loc .text_11, range 0x8
+
+
+
+-------------------------------------------------------------------------------
+Section #30 .rel.debug_frame:
+
+  # Offset Relocation    Symbol            Section
+  - ------ ----------    ------            -------
+  0   0x60 2 R_ARM_ABS32 15 .debug_frame29 #29 .debug_frame
+  1   0x64 2 R_ARM_ABS32 14 .text_11        #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #31 .iar.debug_line:
+
+  0x0: 84 bytes, version 1
+    1 function
+      N0001:  ref  #33:0xc3
+    0 types
+    t_org .text_11
+    t_statement_info COMMON
+      id = 0, version = 1, code factor = 2, line base = 0,
+      line range = 5, start col base = -8, start col range = 17,
+      end col base = -20, end col range = 41, opcode base = 14
+    t_statement_info DATA
+      code factor 2, total bytes 8
+      fun N0001 PRIMARY o1 [38:1-42:1]
+          set_step_kind 3
+          set_extra_lines 1
+          advance_line 62396
+          Special(pc 0, line 4, scol 1, ecol 1)
+        0 @0x0 Func begin([38:1-39:1])
+          advance_end_col 6
+          Special(pc 0, line 3, scol 4, ecol 20)
+        1 @0x0 Statement([41:5-27])
+          clear_reachable
+          add_reachable exit
+          advance_end_col -6
+          Special(pc 6, line 1, scol -4, ecol -20)
+        2 @0x6 Statement([42:1-1])
+
+
+-------------------------------------------------------------------------------
+Section #100 .rel.iar.debug_line:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32 14 .text_11       #8 .text
+  1    0xf 2 R_ARM_ABS32 61 .debug_info33 #33 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #32 .debug_line:
+
+  0x0: 164 bytes, utf8, version 2, 135 prologue bytes
+    code factor 2, line base 0, line range 5, opcode base 10
+    opcode lengths [0 1 1 1 1 0 0 0 0]
+
+    Directories:
+      1:  'c:\ti\tirtos_tivac_2_16_01_14\tirtos_tivac_2_16_01_14_examples\IAR\EK_TM4C1294XL\tcpEchoCC3X00'
+
+    Files:
+      1:  Jan 15 21:02:21 2017  158 li  1  'tcpEchoCC3X00.c'
+
+        set_address .text_11
+        set_column 1
+        advance_line 34
+        special(0x0, 4)
+    0x0 [39:1]
+        set_column 5
+        special(0x0, 2)
+    0x0 [41:5]
+        set_column 1
+        special(0x6, 1)
+    0x6 [42:1]
+        advance_pc 0x2
+        end_sequence
+    0x8
+
+
+-------------------------------------------------------------------------------
+Section #99 .rel.debug_line:
+
+  # Offset Relocation    Symbol      Section
+  - ------ ----------    ------      -------
+  0   0x94 2 R_ARM_ABS32 14 .text_11 #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #33 .debug_info:
+
+   0x0: 246 bytes, version 3, abbrevs #56, addr size 4
+   0xb: + compile_unit (8)
+        |   name c:\ti\tirtos_tivac_2_16_01_14\tirtos_tivac_2_16_01_14_examples\IAR\EK_TM4C1294XL\tcpEchoCC3X00\tcpEchoCC3X00.c
+        |   producer IAR ANSI C/C++ Compiler V7.80.1.11864/W32 for ARM
+        |   language C99
+        |   low_pc .text_11
+        |   high_pc .text_11 + 0x8
+        |   stmt_list #32
+        |   iar_stmt_list #31
+        |   iar_source_line_sequence #7:0xb
+        |   use_UTF8 0x1
+  0xc3: | + subprogram (10)
+        | |   sibling 0xf9
+        | |   name gpioButtonFxn
+        | |   decl_file 1
+        | |   decl_line 38
+        | |   decl_column 13
+        | |   iar_decl_end_column 25
+        | |   external 0x0
+        | |   frame_base #51 <0x0-0x8:[breg13 0]>
+        | |   low_pc .text_11
+        | |   high_pc .text_11 + 0x8
+  0xe7: | |   formal_parameter (12)
+        | |     name index
+        | |     decl_file 1
+        | |     decl_line 38
+        | |     decl_column 40
+        | |     iar_decl_end_column 44
+        | |     type #7:0xd3
+        | |     location [reg0]
+        | +-- 0
+        +-- 0
+
+
+-------------------------------------------------------------------------------
+Section #65 .rel.debug_info:
+
+  # Offset Relocation    Symbol               Section
+  - ------ ----------    ------               -------
+  0    0x6 2 R_ARM_ABS32 50 .debug_abbrev56   #56 .debug_abbrev
+  1   0xdf 2 R_ARM_ABS32 14 .text_11           #8 .text
+  2   0xe3 2 R_ARM_ABS32 14 .text_11           #8 .text
+  3   0xae 2 R_ARM_ABS32 14 .text_11           #8 .text
+  4   0xb2 2 R_ARM_ABS32 14 .text_11           #8 .text
+  5   0xdb 2 R_ARM_ABS32 58 .debug_loc51      #51 .debug_loc
+  6   0xf2 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+  7   0xb6 2 R_ARM_ABS32 59 .debug_line32     #32 .debug_line
+  8   0xba 2 R_ARM_ABS32 60 .iar.debug_line31 #31 .iar.debug_line
+  9   0xbe 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #34 .debug_frame:
+
+  CIE 0x0: 88 bytes, version = 3, caf 0x2, daf -0x4, ret R14
+    0x0 def_cfa_sf R13 0x0
+        undefined  R0
+        undefined  R1
+        undefined  R2
+        undefined  R3
+        same_value R4
+        same_value R5
+        same_value R6
+        same_value R7
+        same_value R8
+        same_value R9
+        same_value R10
+        same_value R11
+        undefined  R12
+        same_value R14
+        undefined  D0
+        undefined  D1
+        undefined  D2
+        undefined  D3
+        undefined  D4
+        undefined  D5
+        undefined  D6
+        undefined  D7
+        same_value D8
+        same_value D9
+        same_value D10
+        same_value D11
+        same_value D12
+        same_value D13
+        same_value D14
+        same_value D15
+  FDE 0x5c: 41 bytes, CIE 0x0, loc .text_12, range 0x106
+      0x0 advance_loc       0x4
+      0x4 def_cfa_offset_sf 0x24
+          offset            R4 -0x24
+          offset            R5 -0x20
+          offset            R6 -0x1c
+          offset            R7 -0x18
+          offset            R8 -0x14
+          offset            R9 -0x10
+          offset            R10 -0xc
+          offset            R11 -0x8
+          offset            R14 -0x4
+          advance_loc       0x2
+      0x6 def_cfa_offset_sf 0x150
+          advance_loc1      0xfc
+    0x102 def_cfa_offset_sf 0x24
+
+
+-------------------------------------------------------------------------------
+Section #35 .rel.debug_frame:
+
+  # Offset Relocation    Symbol            Section
+  - ------ ----------    ------            -------
+  0   0x60 2 R_ARM_ABS32 17 .debug_frame34 #34 .debug_frame
+  1   0x64 2 R_ARM_ABS32 16 .text_12        #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #36 .iar.debug_line:
+
+  0x0: 447 bytes, version 1
+    12 functions
+      N0001:  ref  #38:0xc3
+      N0002:  addr sl_Socket
+      N0003:  addr xdc_runtime_System_printf__E
+      N0004:  ref  #53:0xb7
+      N0005:  addr sl_Htonl
+      N0006:  addr sl_Htons
+      N0007:  addr sl_Bind
+      N0008:  addr sl_Listen
+      N0009:  addr sl_Accept
+      N000a:  addr sl_Recv
+      N000b:  addr sl_Send
+      N000c:  addr sl_Close
+    0 types
+    t_org .text_12
+    t_statement_info COMMON
+      id = 0, version = 1, code factor = 2, line base = 0,
+      line range = 5, start col base = -8, start col range = 17,
+      end col base = -20, end col range = 41, opcode base = 14
+    t_statement_info DATA
+      code factor 2, total bytes 262
+      fun N0001 PRIMARY o2 [48:1-104:1]
+          set_step_kind 3
+          set_extra_lines 1
+          advance_line 62406
+          Special(pc 0, line 4, scol 1, ecol 1)
+        0 @0x0 Func begin([48:1-49:1])
+          advance_line 5
+          advance_start_col 11
+          advance_end_col 27
+          Special(pc 8, line 4, scol 8, ecol 20)
+        1 @0x8 Statement([57:20-48])
+          advance_start_col -7
+          Special(pc 6, line 3, scol -8, ecol 19)
+        2 @0xe Statement([60:5-67])
+          direct_call N0002
+          advance_start_col 1
+          Special(pc 6, line 0, scol 8, ecol -1)
+        3 @0x14 Direct call([60:14-66])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+        4 @0x18 Return([60:14-66])
+          add_reachable 10
+          advance_start_col -1
+          advance_end_col -25
+          Special(pc 2, line 1, scol -8, ecol -20)
+        5 @0x1a Statement([61:5-21])
+          advance_end_col 13
+          Special(pc 6, line 1, scol 4, ecol 20)
+        6 @0x20 Statement([62:9-54])
+          direct_call N0003
+          Special(pc 2, line 0, scol 0, ecol -1)
+        7 @0x22 Direct call([62:9-53])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+        8 @0x26 Return([62:9-53])
+          clear_reachable
+          add_reachable 56
+          advance_end_col -11
+          Special(pc 0, line 1, scol 0, ecol -20)
+        9 @0x26 Statement([63:9-22])
+          advance_end_col 3
+          Special(pc 2, line 3, scol -4, ecol 20)
+       10 @0x28 Statement([66:5-45])
+          set_step_kind 6
+          set_function N0004
+          Special(pc 12, line 0, scol 0, ecol -1)
+       11 @0x34 Inlined call([66:5-44])
+          Special(pc 10, line 1, scol 0, ecol -6)
+       12 @0x3e Statement([67:5-38])
+          Special(pc 6, line 1, scol 0, ecol 18)
+       13 @0x44 Statement([68:5-56])
+          direct_call N0005
+          advance_start_col 20
+          Special(pc 2, line 0, scol 8, ecol -1)
+       14 @0x46 Direct call([68:33-55])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+       15 @0x4a Return([68:33-55])
+          advance_start_col -20
+          Special(pc 2, line 1, scol -8, ecol -15)
+       16 @0x4c Statement([69:5-40])
+          direct_call N0006
+          advance_start_col 13
+          Special(pc 4, line 0, scol 8, ecol -1)
+       17 @0x50 Direct call([69:26-39])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+       18 @0x54 Return([69:26-39])
+          advance_start_col -13
+          advance_end_col 23
+          Special(pc 4, line 2, scol -8, ecol 20)
+       19 @0x58 Statement([71:5-82])
+          direct_call N0007
+          advance_start_col 1
+          Special(pc 8, line 0, scol 8, ecol -1)
+       20 @0x60 Direct call([71:14-81])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+       21 @0x64 Return([71:14-81])
+          add_reachable 27
+          advance_start_col -1
+          advance_end_col -40
+          Special(pc 2, line 1, scol -8, ecol -20)
+       22 @0x66 Statement([72:5-21])
+          advance_end_col 6
+          Special(pc 8, line 1, scol 4, ecol 20)
+       23 @0x6e Statement([73:9-47])
+          direct_call N0003
+          Special(pc 2, line 0, scol 0, ecol -1)
+       24 @0x70 Direct call([73:9-46])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+       25 @0x74 Return([73:9-46])
+          clear_reachable
+          add_reachable 56
+          advance_end_col -4
+          Special(pc 0, line 1, scol 0, ecol -20)
+       26 @0x74 Statement([74:9-22])
+          Special(pc 2, line 3, scol -4, ecol 12)
+       27 @0x76 Statement([77:5-34])
+          direct_call N0008
+          advance_start_col 1
+          Special(pc 6, line 0, scol 8, ecol -1)
+       28 @0x7c Direct call([77:14-33])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+       29 @0x80 Return([77:14-33])
+          add_reachable 35
+          advance_start_col -1
+          Special(pc 2, line 1, scol -8, ecol -12)
+       30 @0x82 Statement([78:5-21])
+          advance_end_col 8
+          Special(pc 8, line 1, scol 4, ecol 20)
+       31 @0x8a Statement([79:9-49])
+          direct_call N0003
+          Special(pc 2, line 0, scol 0, ecol -1)
+       32 @0x8c Direct call([79:9-48])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+       33 @0x90 Return([79:9-48])
+          clear_reachable
+          add_reachable 56
+          advance_end_col -6
+          Special(pc 0, line 1, scol 0, ecol -20)
+       34 @0x90 Statement([80:9-22])
+          advance_end_col 44
+          Special(pc 2, line 3, scol -4, ecol 20)
+       35 @0x92 Statement([83:5-86])
+          direct_call N0009
+          advance_start_col 10
+          Special(pc 8, line 0, scol 8, ecol -8)
+       36 @0x9a Direct call([83:23-78])
+          add_reachable 53
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+       37 @0x9e Return([83:23-78])
+          advance_start_col -6
+          Special(pc 8, line 2, scol -8, ecol -1)
+       38 @0xa6 Statement([85:9-77])
+          direct_call N000A
+          advance_start_col 12
+          Special(pc 12, line 0, scol 8, ecol -6)
+       39 @0xb2 Direct call([85:29-71])
+          add_reachable 49
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+       40 @0xb6 Return([85:29-71])
+          advance_start_col -8
+          Special(pc 6, line 1, scol -8, ecol -7)
+       41 @0xbc Statement([86:13-64])
+          direct_call N000B
+          advance_start_col 4
+          Special(pc 12, line 0, scol 8, ecol -1)
+       42 @0xc8 Direct call([86:25-63])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+       43 @0xcc Return([86:25-63])
+          add_reachable 38
+          advance_start_col -4
+          Special(pc 2, line 1, scol -8, ecol -7)
+       44 @0xce Statement([87:13-56])
+          Special(pc 8, line 1, scol 4, ecol -1)
+       45 @0xd6 Statement([88:17-55])
+          direct_call N0003
+          Special(pc 2, line 0, scol 0, ecol -1)
+       46 @0xd8 Direct call([88:17-54])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+       47 @0xdc Return([88:17-54])
+          advance_end_col -12
+          Special(pc 0, line 1, scol 0, ecol -20)
+       48 @0xdc Statement([89:17-22])
+          advance_line 1
+          Special(pc 0, line 4, scol -8, ecol 15)
+       49 @0xdc Statement([94:9-37])
+          Special(pc 6, line 1, scol 0, ecol -10)
+       50 @0xe2 Statement([95:9-27])
+          direct_call N000C
+          Special(pc 4, line 0, scol 0, ecol -1)
+       51 @0xe6 Direct call([95:9-26])
+          clear_reachable
+          add_reachable 35
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+       52 @0xea Return([95:9-26])
+          Special(pc 2, line 3, scol -4, ecol 19)
+       53 @0xec Statement([98:5-45])
+          direct_call N0003
+          Special(pc 2, line 0, scol 0, ecol -1)
+       54 @0xee Direct call([98:5-44])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+       55 @0xf2 Return([98:5-44])
+          add_reachable 60
+          advance_end_col -4
+          Special(pc 0, line 3, scol 0, ecol -20)
+       56 @0xf2 Statement([101:5-20])
+          Special(pc 6, line 1, scol 4, ecol 5)
+       57 @0xf8 Statement([102:9-25])
+          direct_call N000C
+          Special(pc 4, line 0, scol 0, ecol -1)
+       58 @0xfc Direct call([102:9-24])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+       59 @0x100 Return([102:9-24])
+          clear_reachable
+          add_reachable exit
+          advance_end_col -3
+          Special(pc 0, line 2, scol -8, ecol -20)
+       60 @0x100 Statement([104:1-1])
+    t_org .text_12 + 0x34
+    t_statement_info DATA
+      code factor 2, total bytes 10
+      fun N0004 INLINED PRIMARY o2 [C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\inc\c\DLib_Product_string.h\73:3-76:14]
+          set_step_kind 3
+          set_extra_lines 1
+          advance_line 3544
+          Special(pc 0, line 4, scol 3, ecol 3)
+        0 @0x0 Func begin([C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\inc\c\DLib_Product_string.h\73:3-74:3])
+          advance_end_col 8
+          Special(pc 0, line 2, scol 2, ecol 20)
+        1 @0x0 Statement([C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\inc\c\DLib_Product_string.h\75:5-31])
+          clear_reachable
+          add_reachable exit
+          Special(pc 10, line 1, scol 0, ecol -17)
+        2 @0xa Statement([C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\inc\c\DLib_Product_string.h\76:5-14])
+
+
+-------------------------------------------------------------------------------
+Section #102 .rel.iar.debug_line:
+
+  #  Offset Relocation    Symbol                          Section
+  -  ------ ----------    ------                          -------
+   0    0x6 2 R_ARM_ABS32 16 .text_12                      #8 .text
+   1    0xf 2 R_ARM_ABS32 66 .debug_info38                #38 .debug_info
+   2   0x14 2 R_ARM_ABS32 87 sl_Socket                        Ext
+   3   0x19 2 R_ARM_ABS32 94 xdc_runtime_System_printf__E     Ext
+   4   0x1e 2 R_ARM_ABS32 63 .debug_info53                #53 .debug_info
+   5   0x23 2 R_ARM_ABS32 82 sl_Htonl                         Ext
+   6   0x28 2 R_ARM_ABS32 83 sl_Htons                         Ext
+   7   0x2d 2 R_ARM_ABS32 80 sl_Bind                          Ext
+   8   0x32 2 R_ARM_ABS32 84 sl_Listen                        Ext
+   9   0x37 2 R_ARM_ABS32 79 sl_Accept                        Ext
+  10   0x3c 2 R_ARM_ABS32 85 sl_Recv                          Ext
+  11   0x41 2 R_ARM_ABS32 86 sl_Send                          Ext
+  12   0x46 2 R_ARM_ABS32 81 sl_Close                         Ext
+
+
+-------------------------------------------------------------------------------
+Section #37 .debug_line:
+
+  0x0: 341 bytes, utf8, version 2, 232 prologue bytes
+    code factor 2, line base 0, line range 5, opcode base 10
+    opcode lengths [0 1 1 1 1 0 0 0 0]
+
+    Directories:
+      1:  'C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\inc\c'
+      2:  'c:\ti\tirtos_tivac_2_16_01_14\tirtos_tivac_2_16_01_14_examples\IAR\EK_TM4C1294XL\tcpEchoCC3X00'
+
+    Files:
+      1:  Jan 15 21:02:21 2017  158 li  2  'tcpEchoCC3X00.c'
+      2:  Oct 14 13:17:42 2016   84 li  1  'DLib_Product_string.h'
+
+          set_address .text_12
+          set_column 1
+          advance_line 44
+          special(0x0, 4)
+      0x0 [tcpEchoCC3X00.c 49:1]
+          set_column 20
+          advance_line 4
+          special(0x8, 4)
+      0x8 [tcpEchoCC3X00.c 57:20]
+          set_column 5
+          special(0x6, 3)
+      0xe [tcpEchoCC3X00.c 60:5]
+          special(0xc, 1)
+     0x1a [tcpEchoCC3X00.c 61:5]
+          set_column 9
+          special(0x6, 1)
+     0x20 [tcpEchoCC3X00.c 62:9]
+          special(0x6, 1)
+     0x26 [tcpEchoCC3X00.c 63:9]
+          set_column 5
+          special(0x2, 3)
+     0x28 [tcpEchoCC3X00.c 66:5]
+          set_file 2
+          set_column 3
+          advance_line 4
+          special(0xc, 4)
+     0x34 [DLib_Product_string.h 74:3]
+          set_column 5
+          special(0x0, 1)
+     0x34 [DLib_Product_string.h 75:5]
+          set_file 1
+          advance_line -8
+          special(0xa, 0)
+     0x3e [tcpEchoCC3X00.c 67:5]
+          set_file 2
+          advance_line 5
+          special(0x0, 4)
+     0x3e [DLib_Product_string.h 76:5]
+          set_file 1
+          advance_line -8
+          special(0x6, 0)
+     0x44 [tcpEchoCC3X00.c 68:5]
+          special(0x8, 1)
+     0x4c [tcpEchoCC3X00.c 69:5]
+          special(0xc, 2)
+     0x58 [tcpEchoCC3X00.c 71:5]
+          special(0xe, 1)
+     0x66 [tcpEchoCC3X00.c 72:5]
+          set_column 9
+          special(0x8, 1)
+     0x6e [tcpEchoCC3X00.c 73:9]
+          special(0x6, 1)
+     0x74 [tcpEchoCC3X00.c 74:9]
+          set_column 5
+          special(0x2, 3)
+     0x76 [tcpEchoCC3X00.c 77:5]
+          special(0xc, 1)
+     0x82 [tcpEchoCC3X00.c 78:5]
+          set_column 9
+          special(0x8, 1)
+     0x8a [tcpEchoCC3X00.c 79:9]
+          special(0x6, 1)
+     0x90 [tcpEchoCC3X00.c 80:9]
+          set_column 5
+          special(0x2, 3)
+     0x92 [tcpEchoCC3X00.c 83:5]
+          set_column 9
+          special(0x14, 2)
+     0xa6 [tcpEchoCC3X00.c 85:9]
+          set_column 13
+          special(0x16, 1)
+     0xbc [tcpEchoCC3X00.c 86:13]
+          special(0x12, 1)
+     0xce [tcpEchoCC3X00.c 87:13]
+          set_column 17
+          special(0x8, 1)
+     0xd6 [tcpEchoCC3X00.c 88:17]
+          special(0x6, 1)
+     0xdc [tcpEchoCC3X00.c 89:17]
+          set_column 9
+          advance_line 1
+          special(0x0, 4)
+     0xdc [tcpEchoCC3X00.c 94:9]
+          special(0x6, 1)
+     0xe2 [tcpEchoCC3X00.c 95:9]
+          set_column 5
+          special(0xa, 3)
+     0xec [tcpEchoCC3X00.c 98:5]
+          special(0x6, 3)
+     0xf2 [tcpEchoCC3X00.c 101:5]
+          set_column 9
+          special(0x6, 1)
+     0xf8 [tcpEchoCC3X00.c 102:9]
+          set_column 1
+          special(0x8, 2)
+    0x100 [tcpEchoCC3X00.c 104:1]
+          advance_pc 0x6
+          end_sequence
+    0x106
+
+
+-------------------------------------------------------------------------------
+Section #101 .rel.debug_line:
+
+  # Offset Relocation    Symbol      Section
+  - ------ ----------    ------      -------
+  0   0xf5 2 R_ARM_ABS32 16 .text_12 #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #38 .debug_info:
+
+    0x0: 482 bytes, version 3, abbrevs #56, addr size 4
+    0xb: + compile_unit (8)
+         |   name c:\ti\tirtos_tivac_2_16_01_14\tirtos_tivac_2_16_01_14_examples\IAR\EK_TM4C1294XL\tcpEchoCC3X00\tcpEchoCC3X00.c
+         |   producer IAR ANSI C/C++ Compiler V7.80.1.11864/W32 for ARM
+         |   language C99
+         |   low_pc .text_12
+         |   high_pc .text_12 + 0x106
+         |   stmt_list #37
+         |   iar_stmt_list #36
+         |   iar_source_line_sequence #7:0xb
+         |   use_UTF8 0x1
+   0xc3: | + subprogram (10)
+         | |   sibling 0x1e5
+         | |   name echoFxn
+         | |   decl_file 1
+         | |   decl_line 48
+         | |   decl_column 13
+         | |   iar_decl_end_column 19
+         | |   external 0x0
+         | |   frame_base #52 <0x0-0x4:[breg13 0]|0x4-0x6:[breg13 36...>
+         | |   low_pc .text_12
+         | |   high_pc .text_12 + 0x106
+   0xe1: | |   formal_parameter (11)
+         | |     name port
+         | |     decl_file 1
+         | |     decl_line 48
+         | |     decl_column 25
+         | |     iar_decl_end_column 28
+         | |     type #7:0xc7
+         | |     location #52:0x39 <0x8-0x106:[reg4]>
+   0xf3: | |   variable (13)
+         | |     name bytesRcvd
+         | |     decl_file 1
+         | |     decl_line 50
+         | |     decl_column 17
+         | |     iar_decl_end_column 25
+         | |     type #7:0xc7
+         | |     location #52:0x4c <0x8-0x106:[reg5]>
+  0x10a: | |   variable (13)
+         | |     name bytesSent
+         | |     decl_file 1
+         | |     decl_line 51
+         | |     decl_column 17
+         | |     iar_decl_end_column 25
+         | |     type #7:0xc7
+         | |     location #52:0x5f <0x8-0x106:[reg6]>
+  0x121: | |   variable (13)
+         | |     name status
+         | |     decl_file 1
+         | |     decl_line 52
+         | |     decl_column 17
+         | |     iar_decl_end_column 22
+         | |     type #7:0xc7
+         | |     location #52:0x72 <0x8-0x106:[fbreg -336]>
+  0x135: | |   variable (13)
+         | |     name clientfd
+         | |     decl_file 1
+         | |     decl_line 53
+         | |     decl_column 17
+         | |     iar_decl_end_column 24
+         | |     type #7:0xc7
+         | |     location #52:0x87 <0x8-0x106:[reg7]>
+  0x14b: | |   variable (13)
+         | |     name server
+         | |     decl_file 1
+         | |     decl_line 54
+         | |     decl_column 17
+         | |     iar_decl_end_column 22
+         | |     type #7:0xc7
+         | |     location #52:0x9a <0x8-0x106:[reg8]>
+  0x15f: | |   variable (13)
+         | |     name localAddr
+         | |     decl_file 1
+         | |     decl_line 55
+         | |     decl_column 20
+         | |     iar_decl_end_column 28
+         | |     type #7:0xa4c
+         | |     location #52:0xad <0x8-0x106:[fbreg -328]>
+  0x176: | |   variable (13)
+         | |     name clientAddr
+         | |     decl_file 1
+         | |     decl_line 56
+         | |     decl_column 20
+         | |     iar_decl_end_column 29
+         | |     type #7:0xa4c
+         | |     location #52:0xc2 <0x8-0x106:[fbreg -312]>
+  0x18e: | |   variable (13)
+         | |     name addrlen
+         | |     decl_file 1
+         | |     decl_line 57
+         | |     decl_column 20
+         | |     iar_decl_end_column 26
+         | |     type #7:0x715
+         | |     location #52:0xd7 <0xe-0x106:[fbreg -332]>
+  0x1a3: | |   variable (13)
+         | |     name buffer
+         | |     decl_file 1
+         | |     decl_line 58
+         | |     decl_column 17
+         | |     iar_decl_end_column 22
+         | |     type #7:0x2d5
+         | |     location #52:0xec <0xe-0x106:[fbreg -296]>
+  0x1b7: | | + inlined_subroutine (14)
+         | | |   sibling 0x1e4
+         | | |   abstract_origin #53:0xb7
+         | | |   low_pc .text_12 + 0x34
+         | | |   high_pc .text_12 + 0x3e
+  0x1c8: | | |   formal_parameter (15)
+         | | |     abstract_origin #53:0xcd
+         | | |     location #52:0x101 <0x34-0x3e:[reg11]>
+  0x1d1: | | |   formal_parameter (15)
+         | | |     abstract_origin #53:0xd9
+         | | |     location #52:0x114 <0x34-0x6e:[reg10]|0x6e-0x106:[]>
+  0x1da: | | |   formal_parameter (15)
+         | | |     abstract_origin #53:0xe5
+         | | |     location #52:0x131 <0x34-0x6e:[reg9]|0x6e-0x106:[]>
+         | | +-- 0
+         | +-- 0
+         +-- 0
+
+
+-------------------------------------------------------------------------------
+Section #70 .rel.debug_info:
+
+  #  Offset Relocation    Symbol               Section
+  -  ------ ----------    ------               -------
+   0    0x6 2 R_ARM_ABS32 50 .debug_abbrev56   #56 .debug_abbrev
+   1   0xd9 2 R_ARM_ABS32 16 .text_12           #8 .text
+   2   0xdd 2 R_ARM_ABS32 16 .text_12           #8 .text
+   3  0x1c0 2 R_ARM_ABS32 16 .text_12           #8 .text
+   4  0x1c4 2 R_ARM_ABS32 16 .text_12           #8 .text
+   5   0xae 2 R_ARM_ABS32 16 .text_12           #8 .text
+   6   0xb2 2 R_ARM_ABS32 16 .text_12           #8 .text
+   7   0xd5 2 R_ARM_ABS32 62 .debug_loc52      #52 .debug_loc
+   8   0xeb 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+   9   0xef 2 R_ARM_ABS32 62 .debug_loc52      #52 .debug_loc
+  10  0x102 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+  11  0x106 2 R_ARM_ABS32 62 .debug_loc52      #52 .debug_loc
+  12  0x119 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+  13  0x11d 2 R_ARM_ABS32 62 .debug_loc52      #52 .debug_loc
+  14  0x12d 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+  15  0x131 2 R_ARM_ABS32 62 .debug_loc52      #52 .debug_loc
+  16  0x143 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+  17  0x147 2 R_ARM_ABS32 62 .debug_loc52      #52 .debug_loc
+  18  0x157 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+  19  0x15b 2 R_ARM_ABS32 62 .debug_loc52      #52 .debug_loc
+  20  0x16e 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+  21  0x172 2 R_ARM_ABS32 62 .debug_loc52      #52 .debug_loc
+  22  0x186 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+  23  0x18a 2 R_ARM_ABS32 62 .debug_loc52      #52 .debug_loc
+  24  0x19b 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+  25  0x19f 2 R_ARM_ABS32 62 .debug_loc52      #52 .debug_loc
+  26  0x1af 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+  27  0x1b3 2 R_ARM_ABS32 62 .debug_loc52      #52 .debug_loc
+  28  0x1bc 2 R_ARM_ABS32 63 .debug_info53     #53 .debug_info
+  29  0x1c9 2 R_ARM_ABS32 63 .debug_info53     #53 .debug_info
+  30  0x1cd 2 R_ARM_ABS32 62 .debug_loc52      #52 .debug_loc
+  31  0x1d2 2 R_ARM_ABS32 63 .debug_info53     #53 .debug_info
+  32  0x1d6 2 R_ARM_ABS32 62 .debug_loc52      #52 .debug_loc
+  33  0x1db 2 R_ARM_ABS32 63 .debug_info53     #53 .debug_info
+  34  0x1df 2 R_ARM_ABS32 62 .debug_loc52      #52 .debug_loc
+  35   0xb6 2 R_ARM_ABS32 64 .debug_line37     #37 .debug_line
+  36   0xba 2 R_ARM_ABS32 65 .iar.debug_line36 #36 .iar.debug_line
+  37   0xbe 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #39 .debug_frame:
+
+  CIE 0x0: 88 bytes, version = 3, caf 0x2, daf -0x4, ret R14
+    0x0 def_cfa_sf R13 0x0
+        undefined  R0
+        undefined  R1
+        undefined  R2
+        undefined  R3
+        same_value R4
+        same_value R5
+        same_value R6
+        same_value R7
+        same_value R8
+        same_value R9
+        same_value R10
+        same_value R11
+        undefined  R12
+        same_value R14
+        undefined  D0
+        undefined  D1
+        undefined  D2
+        undefined  D3
+        undefined  D4
+        undefined  D5
+        undefined  D6
+        undefined  D7
+        same_value D8
+        same_value D9
+        same_value D10
+        same_value D11
+        same_value D12
+        same_value D13
+        same_value D14
+        same_value D15
+  FDE 0x5c: 23 bytes, CIE 0x0, loc .text_13, range 0x1c
+    0x0 advance_loc       0x2
+    0x2 def_cfa_offset_sf 0x10
+        offset            R4 -0x10
+        offset            R5 -0xc
+        offset            R6 -0x8
+        offset            R14 -0x4
+
+
+-------------------------------------------------------------------------------
+Section #40 .rel.debug_frame:
+
+  # Offset Relocation    Symbol            Section
+  - ------ ----------    ------            -------
+  0   0x60 2 R_ARM_ABS32 19 .debug_frame39 #39 .debug_frame
+  1   0x64 2 R_ARM_ABS32 18 .text_13        #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #41 .iar.debug_line:
+
+  0x0: 129 bytes, version 1
+    4 functions
+      N0001:  ref  #43:0xc3
+      N0002:  addr socketsStartUp
+      N0003:  ref  #38:0xc3
+      N0004:  addr socketsShutDown
+    0 types
+    t_org .text_13
+    t_statement_info COMMON
+      id = 0, version = 1, code factor = 2, line base = 0,
+      line range = 5, start col base = -8, start col range = 17,
+      end col base = -20, end col range = 41, opcode base = 14
+    t_statement_info DATA
+      code factor 2, total bytes 28
+      fun N0001 PRIMARY o3 [109:1-120:1]
+          set_step_kind 3
+          set_extra_lines 1
+          advance_line 62467
+          Special(pc 0, line 4, scol 1, ecol 1)
+        0 @0x0 Func begin([109:1-110:1])
+          advance_line 1
+          advance_end_col 8
+          Special(pc 6, line 4, scol 4, ecol 20)
+        1 @0x6 Statement([114:5-29])
+          direct_call N0002
+          Special(pc 0, line 0, scol 8, ecol -1)
+        2 @0x6 Direct call([114:13-28])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+        3 @0xa Return([114:13-28])
+          Special(pc 2, line 2, scol -8, ecol -7)
+        4 @0xc Statement([116:5-21])
+          direct_call N0003
+          Special(pc 4, line 0, scol 0, ecol -1)
+        5 @0x10 Direct call([116:5-20])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+        6 @0x14 Return([116:5-20])
+          Special(pc 0, line 3, scol 0, ecol 7)
+        7 @0x14 Statement([119:5-27])
+          direct_call N0004
+          Special(pc 2, line 0, scol 0, ecol -1)
+        8 @0x16 Direct call([119:5-26])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+        9 @0x1a Return([119:5-26])
+          clear_reachable
+          add_reachable exit
+          advance_end_col -5
+          Special(pc 0, line 1, scol -4, ecol -20)
+       10 @0x1a Statement([120:1-1])
+
+
+-------------------------------------------------------------------------------
+Section #104 .rel.iar.debug_line:
+
+  # Offset Relocation    Symbol             Section
+  - ------ ----------    ------             -------
+  0    0x6 2 R_ARM_ABS32 18 .text_13         #8 .text
+  1    0xf 2 R_ARM_ABS32 70 .debug_info43   #43 .debug_info
+  2   0x14 2 R_ARM_ABS32 90 socketsStartUp      Ext
+  3   0x19 2 R_ARM_ABS32 66 .debug_info38   #38 .debug_info
+  4   0x1e 2 R_ARM_ABS32 89 socketsShutDown     Ext
+
+
+-------------------------------------------------------------------------------
+Section #42 .debug_line:
+
+  0x0: 167 bytes, utf8, version 2, 135 prologue bytes
+    code factor 2, line base 0, line range 5, opcode base 10
+    opcode lengths [0 1 1 1 1 0 0 0 0]
+
+    Directories:
+      1:  'c:\ti\tirtos_tivac_2_16_01_14\tirtos_tivac_2_16_01_14_examples\IAR\EK_TM4C1294XL\tcpEchoCC3X00'
+
+    Files:
+      1:  Jan 15 21:02:21 2017  158 li  1  'tcpEchoCC3X00.c'
+
+         set_address .text_13
+         set_column 1
+         advance_line 105
+         special(0x0, 4)
+     0x0 [110:1]
+         set_column 5
+         special(0x6, 4)
+     0x6 [114:5]
+         special(0x6, 2)
+     0xc [116:5]
+         special(0x8, 3)
+    0x14 [119:5]
+         set_column 1
+         special(0x6, 1)
+    0x1a [120:1]
+         advance_pc 0x2
+         end_sequence
+    0x1c
+
+
+-------------------------------------------------------------------------------
+Section #103 .rel.debug_line:
+
+  # Offset Relocation    Symbol      Section
+  - ------ ----------    ------      -------
+  0   0x94 2 R_ARM_ABS32 18 .text_13 #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #43 .debug_info:
+
+    0x0: 282 bytes, version 3, abbrevs #56, addr size 4
+    0xb: + compile_unit (8)
+         |   name c:\ti\tirtos_tivac_2_16_01_14\tirtos_tivac_2_16_01_14_examples\IAR\EK_TM4C1294XL\tcpEchoCC3X00\tcpEchoCC3X00.c
+         |   producer IAR ANSI C/C++ Compiler V7.80.1.11864/W32 for ARM
+         |   language C99
+         |   low_pc .text_13
+         |   high_pc .text_13 + 0x1c
+         |   stmt_list #42
+         |   iar_stmt_list #41
+         |   iar_source_line_sequence #7:0xb
+         |   use_UTF8 0x1
+   0xc3: | + subprogram (10)
+         | |   sibling 0x11d
+         | |   name tcpEchoTask
+         | |   decl_file 1
+         | |   decl_line 109
+         | |   decl_column 13
+         | |   iar_decl_end_column 23
+         | |   external 0x0
+         | |   frame_base #54 <0x0-0x2:[breg13 0]|0x2-0x1c:[breg13 16]>
+         | |   low_pc .text_13
+         | |   high_pc .text_13 + 0x1c
+   0xe5: | |   formal_parameter (11)
+         | |     name arg0
+         | |     decl_file 1
+         | |     decl_line 109
+         | |     decl_column 30
+         | |     iar_decl_end_column 33
+         | |     type #7:0x797
+         | |     location #54:0x20 <0x6-0x1c:[reg4]>
+   0xf7: | |   formal_parameter (11)
+         | |     name arg1
+         | |     decl_file 1
+         | |     decl_line 109
+         | |     decl_column 41
+         | |     iar_decl_end_column 44
+         | |     type #7:0x797
+         | |     location #54:0x33 <0x6-0x1c:[reg5]>
+  0x109: | |   variable (13)
+         | |     name netIF
+         | |     decl_file 1
+         | |     decl_line 111
+         | |     decl_column 11
+         | |     iar_decl_end_column 15
+         | |     type #7:0xeb
+         | |     location #54:0x46 <0x6-0x1c:[reg6]>
+         | +-- 0
+         +-- 0
+
+
+-------------------------------------------------------------------------------
+Section #75 .rel.debug_info:
+
+  #  Offset Relocation    Symbol               Section
+  -  ------ ----------    ------               -------
+   0    0x6 2 R_ARM_ABS32 50 .debug_abbrev56   #56 .debug_abbrev
+   1   0xdd 2 R_ARM_ABS32 18 .text_13           #8 .text
+   2   0xe1 2 R_ARM_ABS32 18 .text_13           #8 .text
+   3   0xae 2 R_ARM_ABS32 18 .text_13           #8 .text
+   4   0xb2 2 R_ARM_ABS32 18 .text_13           #8 .text
+   5   0xd9 2 R_ARM_ABS32 67 .debug_loc54      #54 .debug_loc
+   6   0xef 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+   7   0xf3 2 R_ARM_ABS32 67 .debug_loc54      #54 .debug_loc
+   8  0x101 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+   9  0x105 2 R_ARM_ABS32 67 .debug_loc54      #54 .debug_loc
+  10  0x114 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+  11  0x118 2 R_ARM_ABS32 67 .debug_loc54      #54 .debug_loc
+  12   0xb6 2 R_ARM_ABS32 68 .debug_line42     #42 .debug_line
+  13   0xba 2 R_ARM_ABS32 69 .iar.debug_line41 #41 .iar.debug_line
+  14   0xbe 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #44 .debug_frame:
+
+  CIE 0x0: 88 bytes, version = 3, caf 0x2, daf -0x4, ret R14
+    0x0 def_cfa_sf R13 0x0
+        undefined  R0
+        undefined  R1
+        undefined  R2
+        undefined  R3
+        same_value R4
+        same_value R5
+        same_value R6
+        same_value R7
+        same_value R8
+        same_value R9
+        same_value R10
+        same_value R11
+        undefined  R12
+        same_value R14
+        undefined  D0
+        undefined  D1
+        undefined  D2
+        undefined  D3
+        undefined  D4
+        undefined  D5
+        undefined  D6
+        undefined  D7
+        same_value D8
+        same_value D9
+        same_value D10
+        same_value D11
+        same_value D12
+        same_value D13
+        same_value D14
+        same_value D15
+  FDE 0x5c: 23 bytes, CIE 0x0, loc .text_14, range 0x4a
+     0x0 advance_loc       0x2
+     0x2 def_cfa_offset_sf 0x4
+         offset            R14 -0x4
+         advance_loc       0x2
+     0x4 def_cfa_offset_sf 0x40
+         advance_loc       0x44
+    0x48 def_cfa_offset_sf 0x4
+
+
+-------------------------------------------------------------------------------
+Section #45 .rel.debug_frame:
+
+  # Offset Relocation    Symbol            Section
+  - ------ ----------    ------            -------
+  0   0x60 2 R_ARM_ABS32 21 .debug_frame44 #44 .debug_frame
+  1   0x64 2 R_ARM_ABS32 20 .text_14        #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #46 .iar.debug_line:
+
+  0x0: 207 bytes, version 1
+    8 functions
+      N0001:  ref  #48:0xc3
+      N0002:  ref  #27:0xc3
+      N0003:  addr ti_sysbios_knl_Task_construct
+      N0004:  addr GPIO_setCallback
+      N0005:  addr GPIO_enableInt
+      N0006:  addr GPIO_write
+      N0007:  addr xdc_runtime_System_printf__E
+      N0008:  addr xdc_runtime_System_flush__E
+    0 types
+    t_org .text_14
+    t_statement_info COMMON
+      id = 0, version = 1, code factor = 2, line base = 0,
+      line range = 5, start col base = -8, start col range = 17,
+      end col base = -20, end col range = 41, opcode base = 14
+    t_statement_info DATA
+      code factor 2, total bytes 74
+      fun N0001 PRIMARY o4 [125:1-157:15]
+          set_step_kind 3
+          set_extra_lines 1
+          advance_line 62483
+          Special(pc 0, line 4, scol 1, ecol 1)
+        0 @0x0 Func begin([125:1-126:1])
+          advance_line 6
+          advance_end_col 13
+          Special(pc 4, line 4, scol 4, ecol 20)
+        1 @0x4 Statement([135:5-34])
+          direct_call N0002
+          Special(pc 2, line 0, scol 0, ecol -1)
+        2 @0x6 Direct call([135:5-33])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+        3 @0xa Return([135:5-33])
+          Special(pc 0, line 1, scol 0, ecol 8)
+        4 @0xa Statement([136:5-41])
+          Special(pc 6, line 1, scol 0, ecol -6)
+        5 @0x10 Statement([137:5-35])
+          Special(pc 4, line 1, scol 0, ecol -7)
+        6 @0x14 Statement([138:5-28])
+          advance_end_col 31
+          Special(pc 4, line 1, scol 0, ecol 20)
+        7 @0x18 Statement([139:5-79])
+          direct_call N0003
+          Special(pc 8, line 0, scol 0, ecol -1)
+        8 @0x20 Direct call([139:5-78])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+        9 @0x24 Return([139:5-78])
+          advance_end_col -7
+          Special(pc 0, line 3, scol 0, ecol -20)
+       10 @0x24 Statement([142:5-51])
+          direct_call N0004
+          Special(pc 4, line 0, scol 0, ecol -1)
+       11 @0x28 Direct call([142:5-50])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+       12 @0x2c Return([142:5-50])
+          Special(pc 0, line 3, scol 0, ecol -16)
+       13 @0x2c Statement([145:5-34])
+          direct_call N0005
+          Special(pc 2, line 0, scol 0, ecol -1)
+       14 @0x2e Direct call([145:5-33])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+       15 @0x32 Return([145:5-33])
+          Special(pc 0, line 3, scol 0, ecol 8)
+       16 @0x32 Statement([148:5-41])
+          direct_call N0006
+          Special(pc 4, line 0, scol 0, ecol -1)
+       17 @0x36 Direct call([148:5-40])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+       18 @0x3a Return([148:5-40])
+          set_extra_lines 2
+          Special(pc 0, line 2, scol 0, ecol 11)
+       19 @0x3a Statement([150:5-152:51])
+          direct_call N0007
+          set_extra_lines 2
+          Special(pc 2, line 0, scol 0, ecol -1)
+       20 @0x3c Direct call([150:5-152:50])
+          set_step_kind 12
+          set_extra_lines 2
+          Special(pc 4, line 0, scol 0, ecol 0)
+       21 @0x40 Return([150:5-152:50])
+          advance_line 1
+          advance_end_col -11
+          Special(pc 0, line 4, scol 0, ecol -20)
+       22 @0x40 Statement([155:5-19])
+          direct_call N0008
+          Special(pc 0, line 0, scol 0, ecol -1)
+       23 @0x40 Direct call([155:5-18])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+       24 @0x44 Return([155:5-18])
+          clear_reachable
+          add_reachable exit
+          Special(pc 0, line 2, scol 0, ecol -3)
+       25 @0x44 Statement([157:5-15])
+
+
+-------------------------------------------------------------------------------
+Section #106 .rel.iar.debug_line:
+
+  # Offset Relocation    Symbol                           Section
+  - ------ ----------    ------                           -------
+  0    0x6 2 R_ARM_ABS32 20 .text_14                       #8 .text
+  1    0xf 2 R_ARM_ABS32 74 .debug_info48                 #48 .debug_info
+  2   0x14 2 R_ARM_ABS32 55 .debug_info27                 #27 .debug_info
+  3   0x19 2 R_ARM_ABS32 92 ti_sysbios_knl_Task_construct     Ext
+  4   0x1e 2 R_ARM_ABS32 76 GPIO_setCallback                  Ext
+  5   0x23 2 R_ARM_ABS32 75 GPIO_enableInt                    Ext
+  6   0x28 2 R_ARM_ABS32 77 GPIO_write                        Ext
+  7   0x2d 2 R_ARM_ABS32 94 xdc_runtime_System_printf__E      Ext
+  8   0x32 2 R_ARM_ABS32 93 xdc_runtime_System_flush__E       Ext
+
+
+-------------------------------------------------------------------------------
+Section #47 .debug_line:
+
+  0x0: 176 bytes, utf8, version 2, 135 prologue bytes
+    code factor 2, line base 0, line range 5, opcode base 10
+    opcode lengths [0 1 1 1 1 0 0 0 0]
+
+    Directories:
+      1:  'c:\ti\tirtos_tivac_2_16_01_14\tirtos_tivac_2_16_01_14_examples\IAR\EK_TM4C1294XL\tcpEchoCC3X00'
+
+    Files:
+      1:  Jan 15 21:02:21 2017  158 li  1  'tcpEchoCC3X00.c'
+
+         set_address .text_14
+         set_column 1
+         advance_line 121
+         special(0x0, 4)
+     0x0 [126:1]
+         set_column 5
+         advance_line 5
+         special(0x4, 4)
+     0x4 [135:5]
+         special(0x6, 1)
+     0xa [136:5]
+         special(0x6, 1)
+    0x10 [137:5]
+         special(0x4, 1)
+    0x14 [138:5]
+         special(0x4, 1)
+    0x18 [139:5]
+         special(0xc, 3)
+    0x24 [142:5]
+         special(0x8, 3)
+    0x2c [145:5]
+         special(0x6, 3)
+    0x32 [148:5]
+         special(0x8, 2)
+    0x3a [150:5]
+         advance_line 1
+         special(0x6, 4)
+    0x40 [155:5]
+         special(0x4, 2)
+    0x44 [157:5]
+         advance_pc 0x34
+         end_sequence
+    0x78
+
+
+-------------------------------------------------------------------------------
+Section #105 .rel.debug_line:
+
+  # Offset Relocation    Symbol      Section
+  - ------ ----------    ------      -------
+  0   0x94 2 R_ARM_ABS32 20 .text_14 #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #48 .debug_info:
+
+   0x0: 256 bytes, version 3, abbrevs #56, addr size 4
+   0xb: + compile_unit (8)
+        |   name c:\ti\tirtos_tivac_2_16_01_14\tirtos_tivac_2_16_01_14_examples\IAR\EK_TM4C1294XL\tcpEchoCC3X00\tcpEchoCC3X00.c
+        |   producer IAR ANSI C/C++ Compiler V7.80.1.11864/W32 for ARM
+        |   language C99
+        |   low_pc .text_14
+        |   high_pc .text_14 + 0x4a
+        |   stmt_list #47
+        |   iar_stmt_list #46
+        |   iar_source_line_sequence #7:0xb
+        |   use_UTF8 0x1
+  0xc3: | + subprogram (16)
+        | |   sibling 0x103
+        | |   name TcpEchoInit
+        | |   decl_file 1
+        | |   decl_line 125
+        | |   decl_column 5
+        | |   iar_decl_end_column 15
+        | |   external 0x1
+        | |   type #7:0xc7
+        | |   frame_base #55 <0x0-0x2:[breg13 0]|0x2-0x4:[breg13 4]...>
+        | |   low_pc .text_14
+        | |   high_pc .text_14 + 0x4a
+  0xe9: | |   variable (13)
+        | |     name taskParams
+        | |     decl_file 1
+        | |     decl_line 128
+        | |     decl_column 17
+        | |     iar_decl_end_column 26
+        | |     type #7:0x9f5
+        | |     location #55:0x39 <0x4-0x4a:[fbreg -64]>
+        | +-- 0
+        +-- 0
+
+
+-------------------------------------------------------------------------------
+Section #80 .rel.debug_info:
+
+  #  Offset Relocation    Symbol               Section
+  -  ------ ----------    ------               -------
+   0    0x6 2 R_ARM_ABS32 50 .debug_abbrev56   #56 .debug_abbrev
+   1   0xe1 2 R_ARM_ABS32 20 .text_14           #8 .text
+   2   0xe5 2 R_ARM_ABS32 20 .text_14           #8 .text
+   3   0xae 2 R_ARM_ABS32 20 .text_14           #8 .text
+   4   0xb2 2 R_ARM_ABS32 20 .text_14           #8 .text
+   5   0xd9 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+   6    0xb 0 R_ARM_NONE  52 .debug_info7       #7 .debug_info
+   7   0xdd 2 R_ARM_ABS32 71 .debug_loc55      #55 .debug_loc
+   8   0xfa 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+   9   0xfe 2 R_ARM_ABS32 71 .debug_loc55      #55 .debug_loc
+  10   0xb6 2 R_ARM_ABS32 72 .debug_line47     #47 .debug_line
+  11   0xba 2 R_ARM_ABS32 73 .iar.debug_line46 #46 .iar.debug_line
+  12   0xbe 2 R_ARM_ABS32 52 .debug_info7       #7 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #49 .ARM.attributes:
+
+  Vendor: aeabi
+    Tag_conformance          "2.10"
+    Tag_CPU_name             "Cortex-M4"
+    Tag_CPU_arch             ARM v7E-M (13)
+    Tag_CPU_arch_profile     Microcontroller profile (M)
+    Tag_THUMB_ISA_use        Allows 16-bit and 32-bit Thumb instructions (2)
+    Tag_FP_arch              Allows FPv4 instructions (D0-D15, S0-S31 only) (6)
+    Tag_PCS_config           Bare platform (1)
+    Tag_ABI_PCS_GOT_use      Directly addressed imported data (1)
+    Tag_ABI_PCS_wchar_t      Size of wchar_t is 2 (2)
+    Tag_ABI_align_needed     Depends on 8-byte alignment of 8-byte data (1)
+    Tag_ABI_align_preserved  Preserves 8-byte alignment of 8-byte data (1)
+    Tag_ABI_enum_size        Enums uses smallest container needed (1)
+    Tag_ABI_HardFP_use       SP VFP instructions only (1)
+    Tag_ABI_VFP_args         No AAPCS variant dependent functions is exported/imported (3)
+    Tag_CPU_unaligned_access Allows v6-style unaligned data accessess (1)
+    Tag_DIV_use              No use of SDIV or UDIV (1)
+
+  Vendor: iar
+  0x0:  02 02 04 01 08 02 0a 02 0e 01                    ..........      
+
+
+
+-------------------------------------------------------------------------------
+Section #50 .debug_loc:
+
+   0x0 0x0 -  0x2: [breg13 0]
+       0x2 - 0x16: [breg13 8]
+       End
+  0x20 0x4 - 0x16: [reg4]
+       End
+
+
+-------------------------------------------------------------------------------
+Section #51 .debug_loc:
+
+  0x0 0x0 - 0x8: [breg13 0]
+      End
+
+
+-------------------------------------------------------------------------------
+Section #52 .debug_loc:
+
+    0x0   0x0 -   0x4: [breg13 0]
+          0x4 -   0x6: [breg13 36]
+          0x6 - 0x102: [breg13 336]
+        0x102 - 0x106: [breg13 36]
+        End
+   0x39   0x8 - 0x106: [reg4]
+        End
+   0x4c   0x8 - 0x106: [reg5]
+        End
+   0x5f   0x8 - 0x106: [reg6]
+        End
+   0x72   0x8 - 0x106: [fbreg -336]
+        End
+   0x87   0x8 - 0x106: [reg7]
+        End
+   0x9a   0x8 - 0x106: [reg8]
+        End
+   0xad   0x8 - 0x106: [fbreg -328]
+        End
+   0xc2   0x8 - 0x106: [fbreg -312]
+        End
+   0xd7   0xe - 0x106: [fbreg -332]
+        End
+   0xec   0xe - 0x106: [fbreg -296]
+        End
+  0x101  0x34 -  0x3e: [reg11]
+        End
+  0x114  0x34 -  0x6e: [reg10]
+         0x6e - 0x106: []
+        End
+  0x131  0x34 -  0x6e: [reg9]
+         0x6e - 0x106: []
+        End
+
+
+-------------------------------------------------------------------------------
+Section #53 .debug_info:
+
+   0x0: 239 bytes, version 3, abbrevs #56, addr size 4
+   0xb: + compile_unit (1)
+        |   name c:\ti\tirtos_tivac_2_16_01_14\tirtos_tivac_2_16_01_14_examples\IAR\EK_TM4C1294XL\tcpEchoCC3X00\tcpEchoCC3X00.c
+        |   producer IAR ANSI C/C++ Compiler V7.80.1.11864/W32 for ARM
+        |   language C99
+        |   stmt_list #6
+        |   macro_info #62
+        |   use_UTF8 0x1
+  0xb7: | + subprogram (17)
+        | |   sibling 0xf2
+        | |   name memset
+        | |   decl_file 4
+        | |   decl_line 73
+        | |   decl_column 23
+        | |   iar_decl_end_column 28
+        | |   external 0x1
+        | |   type #7:0xeb
+        | |   inline declared_not_inlined
+  0xcd: | |   formal_parameter (18)
+        | |     name _D
+        | |     decl_file 4
+        | |     decl_line 73
+        | |     decl_column 37
+        | |     iar_decl_end_column 38
+        | |     type #7:0xeb
+  0xd9: | |   formal_parameter (18)
+        | |     name _C
+        | |     decl_file 4
+        | |     decl_line 73
+        | |     decl_column 45
+        | |     iar_decl_end_column 46
+        | |     type #7:0xc7
+  0xe5: | |   formal_parameter (18)
+        | |     name _N
+        | |     decl_file 4
+        | |     decl_line 73
+        | |     decl_column 56
+        | |     iar_decl_end_column 57
+        | |     type #7:0x747
+        | +-- 0
+        +-- 0
+
+
+-------------------------------------------------------------------------------
+Section #85 .rel.debug_info:
+
+  # Offset Relocation    Symbol              Section
+  - ------ ----------    ------              -------
+  0    0x6 2 R_ARM_ABS32 50 .debug_abbrev56  #56 .debug_abbrev
+  1   0xc8 2 R_ARM_ABS32 52 .debug_info7      #7 .debug_info
+  2   0xd5 2 R_ARM_ABS32 52 .debug_info7      #7 .debug_info
+  3   0xe1 2 R_ARM_ABS32 52 .debug_info7      #7 .debug_info
+  4   0xed 2 R_ARM_ABS32 52 .debug_info7      #7 .debug_info
+  5   0xae 2 R_ARM_ABS32 56 .debug_line6      #6 .debug_line
+  6   0xb2 2 R_ARM_ABS32 57 .debug_macinfo62 #62 .debug_macinfo
+
+
+-------------------------------------------------------------------------------
+Section #54 .debug_loc:
+
+   0x0 0x0 -  0x2: [breg13 0]
+       0x2 - 0x1c: [breg13 16]
+       End
+  0x20 0x6 - 0x1c: [reg4]
+       End
+  0x33 0x6 - 0x1c: [reg5]
+       End
+  0x46 0x6 - 0x1c: [reg6]
+       End
+
+
+-------------------------------------------------------------------------------
+Section #55 .debug_loc:
+
+   0x0  0x0 -  0x2: [breg13 0]
+        0x2 -  0x4: [breg13 4]
+        0x4 - 0x48: [breg13 64]
+       0x48 - 0x4a: [breg13 4]
+       End
+  0x39  0x4 - 0x4a: [fbreg -64]
+       End
+
+
+-------------------------------------------------------------------------------
+Section #56 .debug_abbrev:
+
+  23 array_type [has children]
+       sibling                     ref4
+       type                        ref4
+  25 array_type [has children]
+       sibling                     ref4
+       type                        ref_udata
+  19 enumeration_type [has children]
+       sibling                     ref4
+       name                        string
+       type                        ref_udata
+       byte_size                   udata
+  18 formal_parameter [no children]
+       name                        string
+       decl_file                   udata
+       decl_line                   udata
+       decl_column                 udata
+       iar_decl_end_column         udata
+       type                        ref_addr
+  11 formal_parameter [no children]
+       name                        string
+       decl_file                   udata
+       decl_line                   udata
+       decl_column                 udata
+       iar_decl_end_column         udata
+       type                        ref_addr
+       location                    data4
+  12 formal_parameter [no children]
+       name                        string
+       decl_file                   udata
+       decl_line                   udata
+       decl_column                 udata
+       iar_decl_end_column         udata
+       type                        ref_addr
+       location                    block
+  15 formal_parameter [no children]
+       abstract_origin             ref_addr
+       location                    data4
+  22 formal_parameter [no children]
+       type                        ref4
+  27 member [no children]
+       type                        ref4
+       accessibility               data1
+       name                        string
+       data_member_location        block
+  28 member [no children]
+       type                        ref_udata
+       accessibility               data1
+       name                        string
+       data_member_location        block
+   4 pointer_type [no children]
+       type                        ref4
+   7 pointer_type [no children]
+       type                        ref_udata
+   1 compile_unit [has children]
+       name                        string
+       producer                    string
+       language                    data1
+       stmt_list                   data4
+       macro_info                  data4
+       use_UTF8                    data1
+   8 compile_unit [has children]
+       name                        string
+       producer                    string
+       language                    data1
+       low_pc                      addr
+       high_pc                     addr
+       stmt_list                   data4
+       iar_stmt_list               data4
+       iar_source_line_sequence    ref_addr
+       use_UTF8                    data1
+  26 structure_type [has children]
+       sibling                     ref4
+       name                        string
+       byte_size                   udata
+  21 subroutine_type [has children]
+       sibling                     ref4
+  29 typedef [no children]
+       name                        string
+       type                        ref_udata
+       decl_file                   udata
+       decl_line                   udata
+       decl_column                 udata
+       iar_decl_end_column         udata
+  14 inlined_subroutine [has children]
+       sibling                     ref4
+       abstract_origin             ref_addr
+       low_pc                      addr
+       high_pc                     addr
+  24 subrange_type [no children]
+       upper_bound                 udata
+   2 base_type [no children]
+       name                        string
+       byte_size                   udata
+       encoding                    data1
+   9 const_type [no children]
+       type                        ref_udata
+  20 enumerator [no children]
+       name                        string
+       const_value                 udata
+  10 subprogram [has children]
+       sibling                     ref4
+       name                        string
+       decl_file                   udata
+       decl_line                   udata
+       decl_column                 udata
+       iar_decl_end_column         udata
+       external                    data1
+       frame_base                  data4
+       low_pc                      addr
+       high_pc                     addr
+  17 subprogram [has children]
+       sibling                     ref4
+       name                        string
+       decl_file                   udata
+       decl_line                   udata
+       decl_column                 udata
+       iar_decl_end_column         udata
+       external                    data1
+       type                        ref_addr
+       inline                      data1
+  16 subprogram [has children]
+       sibling                     ref4
+       name                        string
+       decl_file                   udata
+       decl_line                   udata
+       decl_column                 udata
+       iar_decl_end_column         udata
+       external                    data1
+       type                        ref_addr
+       frame_base                  data4
+       low_pc                      addr
+       high_pc                     addr
+  13 variable [no children]
+       name                        string
+       decl_file                   udata
+       decl_line                   udata
+       decl_column                 udata
+       iar_decl_end_column         udata
+       type                        ref_addr
+       location                    data4
+   3 variable [no children]
+       name                        string
+       type                        ref_addr
+       decl_file                   udata
+       decl_line                   udata
+       decl_column                 udata
+       iar_decl_end_column         udata
+       external                    data1
+       location                    block
+       iar_static_storage_duration data1
+   6 volatile_type [no children]
+       type                        ref4
+   5 volatile_type [no children]
+       type                        ref_udata
+
+
+-------------------------------------------------------------------------------
+Section #58 .debug_pubnames:
+
+  0x0: 50 bytes, version 2, for unit at #27, size 271
+
+    Offset Name
+    ------ ----
+      0xc3 ti_sysbios_knl_Task_Params_init
+
+
+-------------------------------------------------------------------------------
+Section #59 .rel.debug_pubnames:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32 55 .debug_info27 #27 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #60 .debug_aranges:
+
+  0x0: 24 bytes, version 2, for unit at #27, address size 4, segment size 0
+
+    Address Length
+    ------- ------
+     .text8   0x16
+
+
+-------------------------------------------------------------------------------
+Section #61 .rel.debug_aranges:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32 55 .debug_info27 #27 .debug_info
+  1    0xc 2 R_ARM_ABS32  9 .text8         #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #62 .debug_macinfo:
+
+  0x0:
+    Include file 52 at line 0
+      Include file 9 at line 1
+        Include file 11 at line 10
+        End include
+        Include file 13 at line 11
+          Include file 11 at line 11
+          End include
+          Include file 2 at line 72
+            Include file 1 at line 39
+            End include
+            Include file 3 at line 50
+            End include
+          End include
+          Include file 10 at line 316
+            Include file 11 at line 11
+            End include
+            Include file 13 at line 12
+            End include
+          End include
+          Include file 5 at line 509
+          End include
+        End include
+        Include file 12 at line 12
+          Include file 11 at line 11
+          End include
+        End include
+        Include file 4 at line 15
+        End include
+      End include
+      Include file 6 at line 2
+      End include
+      Include file 83 at line 5
+        Include file 7 at line 18
+          Include file 11 at line 10
+          End include
+          Include file 12 at line 12
+          End include
+        End include
+        Include file 15 at line 80
+          Include file 14 at line 27
+          End include
+          Include file 8 at line 30
+            Include file 11 at line 10
+            End include
+          End include
+        End include
+      End include
+      Include file 72 at line 6
+        Include file 82 at line 52
+        End include
+        Include file 74 at line 53
+          Include file 76 at line 53
+          End include
+          Include file 81 at line 54
+          End include
+          Include file 75 at line 340
+          End include
+        End include
+        Include file 65 at line 56
+          Include file 74 at line 51
+          End include
+          Include file 74 at line 54
+          End include
+          Include file 63 at line 55
+            Include file 74 at line 52
+            End include
+            Include file 64 at line 53
+              Include file 74 at line 52
+              End include
+            End include
+            Include file 65 at line 56
+            End include
+            Include file 59 at line 57
+              Include file 74 at line 53
+              End include
+              Include file 61 at line 54
+                Include file 70 at line 13
+                  Include file 74 at line 53
+                  End include
+                  Include file 65 at line 56
+                  End include
+                  Include file 62 at line 57
+                    Include file 74 at line 52
+                    End include
+                    Include file 64 at line 53
+                    End include
+                    Include file 65 at line 56
+                    End include
+                  End include
+                  Include file 77 at line 58
+                    Include file 74 at line 54
+                    End include
+                    Include file 64 at line 55
+                    End include
+                    Include file 62 at line 58
+                    End include
+                  End include
+                End include
+              End include
+              Include file 65 at line 57
+              End include
+              Include file 74 at line 58
+              End include
+              Include file 60 at line 340
+              End include
+            End include
+            Include file 71 at line 58
+              Include file 74 at line 53
+              End include
+              Include file 65 at line 56
+              End include
+              Include file 63 at line 57
+              End include
+              Include file 59 at line 58
+              End include
+              Include file 78 at line 59
+                Include file 74 at line 54
+                End include
+                Include file 64 at line 55
+                End include
+                Include file 63 at line 58
+                End include
+              End include
+            End include
+          End include
+          Include file 59 at line 56
+          End include
+        End include
+        Include file 53 at line 57
+          Include file 74 at line 53
+          End include
+          Include file 55 at line 54
+            Include file 70 at line 16
+            End include
+            Include file 56 at line 17
+              Include file 74 at line 53
+              End include
+              Include file 58 at line 54
+                Include file 70 at line 23
+                End include
+              End include
+              Include file 65 at line 57
+              End include
+              Include file 74 at line 58
+              End include
+              Include file 57 at line 308
+              End include
+            End include
+          End include
+          Include file 65 at line 57
+          End include
+          Include file 56 at line 58
+          End include
+          Include file 59 at line 59
+          End include
+          Include file 74 at line 60
+          End include
+          Include file 54 at line 216
+          End include
+        End include
+        Include file 66 at line 58
+          Include file 74 at line 51
+          End include
+          Include file 65 at line 54
+          End include
+        End include
+        Include file 62 at line 59
+        End include
+        Include file 80 at line 60
+          Include file 74 at line 53
+          End include
+          Include file 66 at line 56
+          End include
+        End include
+        Include file 79 at line 61
+          Include file 74 at line 54
+          End include
+          Include file 64 at line 55
+          End include
+          Include file 62 at line 58
+          End include
+        End include
+        Include file 80 at line 509
+        End include
+        Include file 79 at line 512
+        End include
+      End include
+      Include file 16 at line 9
+        Include file 74 at line 53
+        End include
+        Include file 18 at line 54
+        End include
+        Include file 32 at line 55
+        End include
+        Include file 59 at line 57
+        End include
+        Include file 74 at line 58
+        End include
+        Include file 65 at line 59
+        End include
+        Include file 62 at line 60
+        End include
+        Include file 31 at line 61
+          Include file 74 at line 54
+          End include
+          Include file 64 at line 55
+          End include
+          Include file 62 at line 58
+          End include
+        End include
+        Include file 17 at line 432
+        End include
+        Include file 31 at line 533
+        End include
+      End include
+      Include file 25 at line 10
+        Include file 74 at line 55
+        End include
+        Include file 64 at line 56
+        End include
+        Include file 27 at line 57
+        End include
+        Include file 30 at line 58
+        End include
+        Include file 59 at line 60
+        End include
+        Include file 53 at line 61
+        End include
+        Include file 56 at line 62
+        End include
+        Include file 67 at line 63
+          Include file 74 at line 53
+          End include
+          Include file 69 at line 54
+            Include file 59 at line 13
+            End include
+            Include file 70 at line 14
+            End include
+            Include file 56 at line 15
+            End include
+          End include
+          Include file 65 at line 57
+          End include
+          Include file 56 at line 58
+          End include
+          Include file 74 at line 59
+          End include
+          Include file 73 at line 60
+            Include file 74 at line 53
+            End include
+            Include file 65 at line 56
+            End include
+            Include file 74 at line 57
+            End include
+          End include
+          Include file 68 at line 286
+          End include
+        End include
+        Include file 63 at line 64
+        End include
+        Include file 23 at line 65
+          Include file 74 at line 54
+          End include
+          Include file 64 at line 55
+          End include
+          Include file 65 at line 58
+          End include
+        End include
+        Include file 65 at line 66
+        End include
+        Include file 19 at line 67
+          Include file 74 at line 51
+          End include
+          Include file 21 at line 52
+          End include
+          Include file 59 at line 54
+          End include
+          Include file 65 at line 55
+          End include
+        End include
+        Include file 22 at line 68
+          Include file 74 at line 55
+          End include
+          Include file 64 at line 56
+          End include
+          Include file 53 at line 59
+          End include
+          Include file 56 at line 60
+          End include
+          Include file 67 at line 61
+          End include
+          Include file 65 at line 62
+          End include
+          Include file 20 at line 63
+            Include file 74 at line 53
+            End include
+            Include file 64 at line 54
+            End include
+            Include file 74 at line 57
+            End include
+            Include file 65 at line 58
+            End include
+          End include
+          Include file 23 at line 64
+          End include
+          Include file 24 at line 65
+            Include file 74 at line 55
+            End include
+            Include file 64 at line 56
+            End include
+            Include file 59 at line 59
+            End include
+            Include file 53 at line 60
+            End include
+            Include file 56 at line 61
+            End include
+            Include file 67 at line 62
+            End include
+            Include file 23 at line 63
+            End include
+            Include file 65 at line 64
+            End include
+          End include
+          Include file 28 at line 66
+            Include file 74 at line 55
+            End include
+            Include file 64 at line 56
+            End include
+            Include file 20 at line 59
+            End include
+          End include
+        End include
+        Include file 29 at line 69
+          Include file 74 at line 53
+          End include
+          Include file 19 at line 56
+          End include
+        End include
+        Include file 26 at line 881
+        End include
+        Include file 29 at line 1090
+        End include
+      End include
+      Include file 33 at line 13
+        Include file 8 at line 73
+        End include
+      End include
+      Include file 41 at line 16
+        Include file 48 at line 219
+          Include file 35 at line 76
+          End include
+          Include file 36 at line 77
+          End include
+          Include file 34 at line 690
+            Include file 9 at line 46
+            End include
+          End include
+        End include
+        Include file 46 at line 404
+          Include file 41 at line 37
+          End include
+        End include
+        Include file 43 at line 405
+        End include
+        Include file 38 at line 406
+        End include
+        Include file 42 at line 407
+        End include
+        Include file 39 at line 408
+        End include
+        Include file 44 at line 409
+        End include
+        Include file 37 at line 410
+        End include
+        Include file 40 at line 411
+        End include
+        Include file 45 at line 412
+        End include
+        Include file 47 at line 736
+        End include
+      End include
+      Include file 49 at line 19
+        Include file 50 at line 40
+        End include
+      End include
+      Include file 51 at line 22
+      End include
+    End include
+
+
+-------------------------------------------------------------------------------
+Section #66 .debug_pubnames:
+
+  0x0: 32 bytes, version 2, for unit at #33, size 250
+
+    Offset Name
+    ------ ----
+      0xc3 gpioButtonFxn
+
+
+-------------------------------------------------------------------------------
+Section #67 .rel.debug_pubnames:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32 61 .debug_info33 #33 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #68 .debug_aranges:
+
+  0x0: 24 bytes, version 2, for unit at #33, address size 4, segment size 0
+
+     Address Length
+     ------- ------
+    .text_11    0x8
+
+
+-------------------------------------------------------------------------------
+Section #69 .rel.debug_aranges:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32 61 .debug_info33 #33 .debug_info
+  1    0xc 2 R_ARM_ABS32 14 .text_11       #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #71 .debug_pubnames:
+
+  0x0: 26 bytes, version 2, for unit at #38, size 486
+
+    Offset Name
+    ------ ----
+      0xc3 echoFxn
+
+
+-------------------------------------------------------------------------------
+Section #72 .rel.debug_pubnames:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32 66 .debug_info38 #38 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #73 .debug_aranges:
+
+  0x0: 24 bytes, version 2, for unit at #38, address size 4, segment size 0
+
+     Address Length
+     ------- ------
+    .text_12  0x106
+
+
+-------------------------------------------------------------------------------
+Section #74 .rel.debug_aranges:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32 66 .debug_info38 #38 .debug_info
+  1    0xc 2 R_ARM_ABS32 16 .text_12       #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #76 .debug_pubnames:
+
+  0x0: 30 bytes, version 2, for unit at #43, size 286
+
+    Offset Name
+    ------ ----
+      0xc3 tcpEchoTask
+
+
+-------------------------------------------------------------------------------
+Section #77 .rel.debug_pubnames:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32 70 .debug_info43 #43 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #78 .debug_aranges:
+
+  0x0: 24 bytes, version 2, for unit at #43, address size 4, segment size 0
+
+     Address Length
+     ------- ------
+    .text_13   0x1c
+
+
+-------------------------------------------------------------------------------
+Section #79 .rel.debug_aranges:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32 70 .debug_info43 #43 .debug_info
+  1    0xc 2 R_ARM_ABS32 18 .text_13       #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #81 .debug_pubnames:
+
+  0x0: 30 bytes, version 2, for unit at #48, size 260
+
+    Offset Name
+    ------ ----
+      0xc3 TcpEchoInit
+
+
+-------------------------------------------------------------------------------
+Section #82 .rel.debug_pubnames:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32 74 .debug_info48 #48 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #83 .debug_aranges:
+
+  0x0: 24 bytes, version 2, for unit at #48, address size 4, segment size 0
+
+     Address Length
+     ------- ------
+    .text_14   0x4a
+
+
+-------------------------------------------------------------------------------
+Section #84 .rel.debug_aranges:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32 74 .debug_info48 #48 .debug_info
+  1    0xc 2 R_ARM_ABS32 20 .text_14       #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #87 .iar.debug_frame:
+
+  0x0: 14 bytes, version 2
+    SUPPLEMENT for #8/#23:0x5c
+      Function: #27:0xc3
+
+
+-------------------------------------------------------------------------------
+Section #88 .rel.iar.debug_frame:
+
+  # Offset Relocation    Symbol            Section
+  - ------ ----------    ------            -------
+  0    0x6 2 R_ARM_ABS32  9 .text8          #8 .text
+  1    0xa 2 R_ARM_ABS32 10 .debug_frame23 #23 .debug_frame
+  2    0xe 2 R_ARM_ABS32 55 .debug_info27  #27 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #89 .iar.debug_frame:
+
+  0x0: 14 bytes, version 2
+    SUPPLEMENT for #8:0x16/#29:0x5c
+      Function: #33:0xc3
+
+
+-------------------------------------------------------------------------------
+Section #90 .rel.iar.debug_frame:
+
+  # Offset Relocation    Symbol            Section
+  - ------ ----------    ------            -------
+  0    0x6 2 R_ARM_ABS32 14 .text_11        #8 .text
+  1    0xa 2 R_ARM_ABS32 15 .debug_frame29 #29 .debug_frame
+  2    0xe 2 R_ARM_ABS32 61 .debug_info33  #33 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #91 .iar.debug_frame:
+
+  0x0: 14 bytes, version 2
+    SUPPLEMENT for #8:0x1e/#34:0x5c
+      Function: #38:0xc3
+
+
+-------------------------------------------------------------------------------
+Section #92 .rel.iar.debug_frame:
+
+  # Offset Relocation    Symbol            Section
+  - ------ ----------    ------            -------
+  0    0x6 2 R_ARM_ABS32 16 .text_12        #8 .text
+  1    0xa 2 R_ARM_ABS32 17 .debug_frame34 #34 .debug_frame
+  2    0xe 2 R_ARM_ABS32 66 .debug_info38  #38 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #93 .iar.debug_frame:
+
+  0x0: 14 bytes, version 2
+    SUPPLEMENT for #8:0x124/#39:0x5c
+      Function: #43:0xc3
+
+
+-------------------------------------------------------------------------------
+Section #94 .rel.iar.debug_frame:
+
+  # Offset Relocation    Symbol            Section
+  - ------ ----------    ------            -------
+  0    0x6 2 R_ARM_ABS32 18 .text_13        #8 .text
+  1    0xa 2 R_ARM_ABS32 19 .debug_frame39 #39 .debug_frame
+  2    0xe 2 R_ARM_ABS32 70 .debug_info43  #43 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #95 .iar.debug_frame:
+
+  0x0: 14 bytes, version 2
+    SUPPLEMENT for #8:0x140/#44:0x5c
+      Function: #48:0xc3
+
+
+-------------------------------------------------------------------------------
+Section #96 .rel.iar.debug_frame:
+
+  # Offset Relocation    Symbol            Section
+  - ------ ----------    ------            -------
+  0    0x6 2 R_ARM_ABS32 20 .text_14        #8 .text
+  1    0xa 2 R_ARM_ABS32 21 .debug_frame44 #44 .debug_frame
+  2    0xe 2 R_ARM_ABS32 74 .debug_info48  #48 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #108 .iar.fraginfo:
+
+  Fragment Start Align
+  -------------- -----
+  .text8           0x2
+  .text_11         0x2
+  .text_12         0x2
+  .text_13         0x2
+  .text_14         0x2
+  .text_15         0x4
+  .text_16         0x4
+  .text_17         0x4
+  .text_18         0x4
+  .text_19         0x4
+  .text_20         0x4
+  .text_21         0x4
+  .text_22         0x4
+  .text_23         0x4
+  .text_24         0x4
+  .text_25         0x4
+
+
+-------------------------------------------------------------------------------
+Section #109 .rel.iar.fraginfo:
+
+  #  Offset Relocation   Symbol      Section
+  -  ------ ----------   ------      -------
+   0    0x2 0 R_ARM_NONE  9 .text8   #8 .text
+   1    0x3 0 R_ARM_NONE 14 .text_11 #8 .text
+   2    0x4 0 R_ARM_NONE 16 .text_12 #8 .text
+   3    0x5 0 R_ARM_NONE 18 .text_13 #8 .text
+   4    0x6 0 R_ARM_NONE 20 .text_14 #8 .text
+   5    0x7 0 R_ARM_NONE 22 .text_15 #8 .text
+   6    0x8 0 R_ARM_NONE 24 .text_16 #8 .text
+   7    0x9 0 R_ARM_NONE 25 .text_17 #8 .text
+   8    0xa 0 R_ARM_NONE 26 .text_18 #8 .text
+   9    0xb 0 R_ARM_NONE 27 .text_19 #8 .text
+  10    0xc 0 R_ARM_NONE 28 .text_20 #8 .text
+  11    0xd 0 R_ARM_NONE 29 .text_21 #8 .text
+  12    0xe 0 R_ARM_NONE 30 .text_22 #8 .text
+  13    0xf 0 R_ARM_NONE 31 .text_23 #8 .text
+  14   0x10 0 R_ARM_NONE 32 .text_24 #8 .text
+  15   0x11 0 R_ARM_NONE 33 .text_25 #8 .text
+
+Errors: none
+Warnings: none
